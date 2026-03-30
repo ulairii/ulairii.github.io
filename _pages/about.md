@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Background"
+title: "Education Experience"
 author_profile: true
 redirect_from: 
   - /about/
@@ -9,9 +9,15 @@ redirect_from:
 
 <div class="academic-home" markdown="1">
 
-I am a Ph.D. student in Computer Science at Clemson University. My research focuses on 3D computer vision, trustworthy AI, and robust perception for autonomous driving systems.
+* **Clemson University**, Clemson, SC  
+  Ph.D. Student in Computer Science, **Aug. 2025 - Present**  
+  Concentration: 3D Computer Vision, AI Security and Mobile Computing
 
-Before Clemson, I received an M.S. in Electrical and Computer Engineering from Carnegie Mellon University and a B.S. in Computer & Systems Engineering from Rensselaer Polytechnic Institute.
+* **Carnegie Mellon University**, Pittsburgh, PA  
+  M.S. in Electrical and Computer Engineering (Applied Advanced Program), **Sep. 2021 - May 2023**
+
+* **Rensselaer Polytechnic Institute**, Troy, NY  
+  B.S. in Computer & Systems Engineering, **Sep. 2017 - May 2021**
 
 <p class="academic-home__links"><a href="/files/CV_RW.pdf">CV (PDF)</a> | <a href="https://scholar.google.com/citations?user=lYRE8BgAAAAJ&hl=en">Google Scholar</a> | <a href="https://github.com/RunWang123">GitHub</a> | <a href="mailto:runw@clemson.edu">Email</a></p>
 

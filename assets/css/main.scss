@@ -45,34 +45,34 @@
 /* Homepage-only compact academic style */
 .academic-home {
   font-family: "Charter", "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  font-size: 0.97rem;
-  line-height: 1.48;
+  font-size: 0.92rem;
+  line-height: 1.34;
   color: #1f2933;
   max-width: 78ch;
 }
 
 .academic-home p {
-  margin: 0 0 0.7rem;
+  margin: 0 0 0.45rem;
 }
 
 .academic-home h2 {
   font-family: "Avenir Next Condensed", "Arial Narrow", "Segoe UI", sans-serif;
-  font-size: 1.02rem;
+  font-size: 0.95rem;
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-top: 1.2rem;
-  margin-bottom: 0.35rem;
-  padding-bottom: 0.15rem;
+  margin-top: 0.72rem;
+  margin-bottom: 0.2rem;
+  padding-bottom: 0.08rem;
   border-bottom: 1px solid #d6dce3;
 }
 
 .academic-home ul {
-  margin: 0.2rem 0 0.75rem 1.05rem;
+  margin: 0.1rem 0 0.45rem 0.95rem;
 }
 
 .academic-home li {
-  margin: 0 0 0.22rem;
+  margin: 0 0 0.12rem;
 }
 
 .academic-home strong {
@@ -81,9 +81,9 @@
 
 .academic-home__links {
   font-family: "Avenir Next Condensed", "Arial Narrow", "Segoe UI", sans-serif;
-  font-size: 0.86rem;
+  font-size: 0.8rem;
   letter-spacing: 0.02em;
-  margin: 0.35rem 0 0.9rem;
+  margin: 0.2rem 0 0.45rem;
 }
 
 .academic-home__links a,
@@ -94,13 +94,13 @@
 
 @media (min-width: 900px) {
   .academic-home {
-    font-size: 0.95rem;
-    line-height: 1.45;
+    font-size: 0.9rem;
+    line-height: 1.32;
     max-width: 82ch;
   }
 
   .academic-home h2 {
-    margin-top: 1rem;
+    margin-top: 0.65rem;
   }
 
   .academic-home ul {
