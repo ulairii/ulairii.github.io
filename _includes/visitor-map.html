@@ -1,205 +1,62 @@
-<!-- Visitor Map Widget -->
-<div class="visitor-map-section">
-  <p>Welcome visitors from around the world! 🌍</p>
-  
-  <!-- Option 1: ClustrMaps (Free and Easy) - Uncomment and replace YOUR_ID when you get your ClustrMaps code -->
-  
-  <div class="clustrmaps-widget">
-    <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=Zm8AJF9x2FvNaW7NNR7QpbSDNPPV7TyaI2Txo5ZNIvo&cl=ffffff&w=a"></script>
-  </div>
- 
-  
-  <!-- Option 2: FlagCounter (Real Tracking Code) -->
-  <!-- <div class="flagcounter-widget">
-    <a href="https://info.flagcounter.com/9VGC">
-      <img src="https://s01.flagcounter.com/map/9VGC/size_s/txt_000000/border_CCCCCC/pageviews_0/viewers_0/flags_0/" 
-           alt="Flag Counter" style="border: none; border-radius: 8px;">
-    </a>
-  </div> -->
-  
-  
-</div>
+<!-- Compact Visitor Map Widget -->
+<section class="visitor-map-section" aria-label="Global visitor map">
+  <p class="visitor-map-title">Global Visitors</p>
 
-<!-- Interactive World Map (Custom Solution) -->
-<div class="custom-visitor-map" id="world-map" style="display: none;">
-  <h3>Interactive Visitor Map</h3>
-  <div id="visitor-world-map"></div>
-  <div class="map-legend">
-    <div class="legend-item">
-      <span class="legend-color" style="background-color: #ff6b6b;"></span>
-      <span>Recent Visitors (Last 7 days)</span>
-    </div>
-    <div class="legend-item">
-      <span class="legend-color" style="background-color: #4ecdc4;"></span>
-      <span>All Time Visitors</span>
-    </div>
+  <div class="visitor-map-embed">
+    <script
+      type="text/javascript"
+      id="mapmyvisitors"
+      src="//mapmyvisitors.com/map.js?d=Zm8AJF9x2FvNaW7NNR7QpbSDNPPV7TyaI2Txo5ZNIvo&cl=ffffff&w=a">
+    </script>
   </div>
-  
-  <!-- Include advanced analytics if available -->
-  {% include visitor-analytics.html %}
-</div>
+</section>
 
 <style>
 .visitor-map-section {
-  margin: 2rem 0;
-  padding: 2rem;
-  background: linear-gradient(135deg, #a8d8ea 0%, #d4a5a5 100%);
-  border-radius: 12px;
-  color: white;
-  text-align: center;
+  margin: 1rem 0 1.25rem;
+  padding: 0;
+  background: transparent;
+  border: 0;
 }
 
-.visitor-map-section h2 {
-  color: white;
-  margin-bottom: 0.5rem;
-  font-size: 1.8rem;
+.visitor-map-title {
+  margin: 0 0 0.45rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #4b5563;
 }
 
-.visitor-map-section p {
-  margin-bottom: 1.5rem;
-  opacity: 0.9;
-}
-
-.clustrmaps-widget, .flagcounter-widget, .simple-map-widget {
-  background: rgba(255, 255, 255, 0.1);
-  padding: 1.5rem;
-  border-radius: 12px;
-  margin: 1.5rem 0;
-  backdrop-filter: blur(10px);
-  text-align: center;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-.flagcounter-widget img, .simple-map-widget img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-}
-
-.visitor-info {
-  background: rgba(255, 255, 255, 0.1);
-  padding: 1.5rem;
-  border-radius: 12px;
-  margin-top: 2rem;
-  backdrop-filter: blur(10px);
-  text-align: center;
-}
-
-.visitor-info p {
-  margin: 0.5rem 0;
-  opacity: 0.9;
-}
-
-.visitor-info small {
-  opacity: 0.7;
-  font-style: italic;
-}
-
-.custom-visitor-map {
-  margin: 2rem 0;
-  padding: 2rem;
-  background: #f8f9fa;
-  border-radius: 12px;
-  border: 1px solid #e9ecef;
-}
-
-.custom-visitor-map h3 {
-  text-align: center;
-  color: #333;
-  margin-bottom: 1rem;
-}
-
-#visitor-world-map {
-  height: 400px;
-  width: 100%;
-  border-radius: 8px;
+.visitor-map-embed {
+  max-width: 700px;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: 0;
   overflow: hidden;
 }
 
-.map-legend {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  margin-top: 1rem;
-  flex-wrap: wrap;
+.visitor-map-embed iframe,
+.visitor-map-embed img,
+.visitor-map-embed canvas {
+  display: block;
+  width: 100% !important;
+  max-width: 700px;
+  min-height: 260px;
+  height: auto !important;
+  margin: 0;
+  border: 0;
+  border-radius: 6px;
 }
 
-.legend-item {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.legend-color {
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-}
-
-@media (max-width: 768px) {
-  .visitor-stats {
-    gap: 1rem;
-  }
-  
-  .visitor-stat {
-    min-width: 80px;
-    padding: 0.75rem 1rem;
-  }
-  
-  .stat-number {
-    font-size: 1.5rem;
-  }
-  
-  .map-legend {
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
+@media (max-width: 900px) {
+  .visitor-map-embed,
+  .visitor-map-embed iframe,
+  .visitor-map-embed img,
+  .visitor-map-embed canvas {
+    max-width: 100%;
+    min-height: 210px;
   }
 }
 </style>
-
-<script>
-// Visitor counter with animation (optional enhancement)
-(function() {
-  'use strict';
-  
-  function initializeVisitorMap() {
-    // Get current static values and optionally animate them
-    const elements = {
-      'visitor-count': parseInt(document.getElementById('visitor-count').textContent.replace(/,/g, '')),
-      'countries-count': parseInt(document.getElementById('countries-count').textContent),
-      'today-count': parseInt(document.getElementById('today-count').textContent)
-    };
-    
-    // Optional: Add subtle animation effect
-    Object.keys(elements).forEach(function(elementId) {
-      const element = document.getElementById(elementId);
-      const targetValue = elements[elementId];
-      
-      if (element && !isNaN(targetValue)) {
-        // Add a subtle counting animation
-        let currentValue = Math.max(0, targetValue - 10);
-        element.textContent = currentValue.toLocaleString();
-        
-        const timer = setInterval(function() {
-          currentValue++;
-          if (currentValue >= targetValue) {
-            element.textContent = targetValue.toLocaleString();
-            clearInterval(timer);
-          } else {
-            element.textContent = currentValue.toLocaleString();
-          }
-        }, 100);
-      }
-    });
-  }
-  
-  // Run when DOM is ready (optional animation)
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initializeVisitorMap);
-  } else {
-    setTimeout(initializeVisitorMap, 500); // Small delay for better effect
-  }
-})();
-</script>
