@@ -13,12 +13,12 @@ I am a Ph.D. student in Computer Science at Clemson University. My research focu
 
 Before Clemson, I received an M.S. in Electrical and Computer Engineering from Carnegie Mellon University and a B.S. in Computer & Systems Engineering from Rensselaer Polytechnic Institute.
 
-<p class="academic-home__links">[CV (PDF)](/files/CV_RW.pdf) | [Google Scholar](https://scholar.google.com/citations?user=lYRE8BgAAAAJ&hl=en) | [GitHub](https://github.com/RunWang123) | [Email](mailto:runw@clemson.edu)</p>
+<p class="academic-home__links"><a href="/files/CV_RW.pdf">CV (PDF)</a> | <a href="https://scholar.google.com/citations?user=lYRE8BgAAAAJ&hl=en">Google Scholar</a> | <a href="https://github.com/RunWang123">GitHub</a> | <a href="mailto:runw@clemson.edu">Email</a></p>
 
-## Research Themes
-* 3D Computer Vision for autonomous systems
-* Trustworthy and secure AI for safety-critical deployment
-* Mobile and edge performance optimization
+## Research Topics
+* 3D Vision
+* AI Security
+* Mobile Computing
 
 ## Selected Publications
 {% assign featured_pubs = site.data.publications.publications | where: "featured", true | sort: "date" | reverse %}
