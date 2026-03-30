@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Education Experience"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
@@ -8,6 +8,8 @@ redirect_from:
 ---
 
 <div class="academic-home" markdown="1">
+
+## Education Experience
 
 * **Clemson University**, Clemson, SC  
   Ph.D. Student in Computer Science, **Aug. 2025 - Present**  
