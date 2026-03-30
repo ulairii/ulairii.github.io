@@ -43,7 +43,9 @@ Recent Highlights
 {% assign publications = site.data.publications.publications %}
 {% for pub in publications %}
 {% if pub.id == highlight.publication_id %}
+{% unless pub.status == "preprint" or pub.venue_short == "arXiv" or pub.note == "arXiv preprint" %}
 * [{{ highlight.timestamp | date: "%m/%d/%Y" }}] **{{ pub.title }}**, {{ pub.venue_short }} {{ pub.year }}{% if pub.acceptance_rate != "" %} (Acceptance Rate: {{ pub.acceptance_rate }}){% endif %}{% if pub.note != "" %} ({{ pub.note }}){% endif %}
+{% endunless %}
 {% endif %}
 {% endfor %}
 {% endif %}
