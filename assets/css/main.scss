@@ -41,3 +41,69 @@
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
+
+/* Homepage-only compact academic style */
+.academic-home {
+  font-family: "Charter", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 0.97rem;
+  line-height: 1.48;
+  color: #1f2933;
+  max-width: 78ch;
+}
+
+.academic-home p {
+  margin: 0 0 0.7rem;
+}
+
+.academic-home h2 {
+  font-family: "Avenir Next Condensed", "Arial Narrow", "Segoe UI", sans-serif;
+  font-size: 1.02rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-top: 1.2rem;
+  margin-bottom: 0.35rem;
+  padding-bottom: 0.15rem;
+  border-bottom: 1px solid #d6dce3;
+}
+
+.academic-home ul {
+  margin: 0.2rem 0 0.75rem 1.05rem;
+}
+
+.academic-home li {
+  margin: 0 0 0.22rem;
+}
+
+.academic-home strong {
+  font-weight: 650;
+}
+
+.academic-home__links {
+  font-family: "Avenir Next Condensed", "Arial Narrow", "Segoe UI", sans-serif;
+  font-size: 0.86rem;
+  letter-spacing: 0.02em;
+  margin: 0.35rem 0 0.9rem;
+}
+
+.academic-home__links a,
+.academic-home a {
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.11em;
+}
+
+@media (min-width: 900px) {
+  .academic-home {
+    font-size: 0.95rem;
+    line-height: 1.45;
+    max-width: 82ch;
+  }
+
+  .academic-home h2 {
+    margin-top: 1rem;
+  }
+
+  .academic-home ul {
+    column-gap: 1.1rem;
+  }
+}
