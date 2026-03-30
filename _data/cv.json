@@ -2,9 +2,9 @@
   "basics": {
     "name": "Run Wang",
     "email": "runw@clemson.edu",
-    "phone": "",
+    "phone": "+1 (518) 961-8733",
     "website": "https://runwang123.github.io",
-    "summary": "Research Assistant at Clemson University focusing on 3D Vision, Generative Models, and Trustworthy AI.",
+    "summary": "Ph.D. student in Computer Science (3D computer vision, trustworthy AI, autonomous driving) with research and industry experience spanning deep learning, mobile/edge performance optimization, and full-stack development.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -33,7 +33,7 @@
   "work": [
     {
       "company": "Computer Packages Inc.",
-      "position": "Application Developer – Fullstack",
+      "position": "Application Developer - Full Stack",
       "website": "",
       "startDate": "2023-05",
       "endDate": "2024-04",
@@ -47,13 +47,16 @@
   ],
   "research": [
     {
-      "company": "Vision and Learning Lab",
-      "position": "Research Assistant",
+      "company": "Clemson University",
+      "position": "Graduate Research Assistant",
       "website": "",
       "startDate": "2025-08",
       "endDate": "Present",
       "summary": "Clemson, SC",
-      "highlights": []
+      "highlights": [
+        "Supervisors: Dr. Siyu Huang and Dr. Mert D. Pese",
+        "Conducting research on 3D computer vision and trustworthy AI for autonomous driving systems"
+      ]
     },
     {
       "company": "Ohio State University",
@@ -63,20 +66,22 @@
       "endDate": "2025-08",
       "summary": "Columbus, OH",
       "highlights": [
-        "Designed machine learning models and time series algorithms to improve the performance of mobile and edge devices",
-        "Published one paper accepted to IWQoS 2025 and one paper accepted to INFOCOM 2026"
+        "Supervisor: Prof. Xiaorui Wang",
+        "Designed machine learning models and time-series algorithms for mobile and edge performance optimization",
+        "Two papers accepted by IEEE IWQoS 2025 and IEEE INFOCOM 2026"
       ]
     },
     {
-      "company": "MiSUMi & Carnegie Mellon University",
+      "company": "CERLAB, Carnegie Mellon University",
       "position": "Research Assistant",
       "website": "",
       "startDate": "2022-05",
       "endDate": "2023-05",
       "summary": "Pittsburgh, PA",
       "highlights": [
-        "Developed graph-based models to extract component-level information from engineering drawings using PyTorch",
-        "Achieved over 90% accuracy in component extraction"
+        "Supervisors: Prof. Kenji Shimada and Dr. Wentai Zhang",
+        "Developed deep learning methods for component extraction from engineering drawings",
+        "Adapted PSPNet, DeepLabV3+, and SketchGNN, achieving 84% overall accuracy"
       ]
     },
     {
@@ -87,8 +92,9 @@
       "endDate": "2022-05",
       "summary": "Pittsburgh, PA",
       "highlights": [
-        "Collected 80+ Linux malware samples and traced dynamic system-level behaviors",
-        "Created an in-house database with 14 selected behavior features"
+        "Supervisor: Dr. Cai Yang",
+        "Collected and analyzed 80+ Linux-based malware samples via dynamic system-level tracing",
+        "Constructed an in-house behavioral dataset with 14 discriminative features"
       ]
     },
     {
@@ -99,8 +105,9 @@
       "endDate": "2020-12",
       "summary": "Troy, NY",
       "highlights": [
-        "Built a real-time gesture recognition system using C# and Python",
-        "Collected skeleton data from 600+ samples across diverse participants"
+        "Supervisors: Dr. Jeff Kephart and Dr. Xiangyang Mou",
+        "Implemented a real-time gesture recognition system using C# and Python with Intel RealSense cameras",
+        "Collected 600+ gesture samples and extracted skeletal motion features"
       ]
     }
   ],
@@ -109,55 +116,57 @@
       "institution": "Clemson University",
       "area": "Ph.D. in Computer Science",
       "studyType": "Ph.D.",
-      "startDate": "",
-      "endDate": "2029 (expected)",
+      "startDate": "2025-08",
+      "endDate": "Aug. 2025 - Present",
       "gpa": null,
       "courses": [],
-      "summary": "Concentration: 3D Vision, Generative Model, Trustworthy AI for AV"
+      "summary": "Concentration: 3D Computer Vision, AI Security and Mobile Computing"
     },
     {
       "institution": "Carnegie Mellon University",
       "area": "M.S. in Electrical and Computer Engineering",
       "studyType": "M.S.",
-      "startDate": "",
-      "endDate": "2023",
-      "gpa": "3.71/4.0",
+      "startDate": "2021-09",
+      "endDate": "Sep. 2021 - May 2023",
+      "gpa": null,
       "courses": []
     },
     {
       "institution": "Rensselaer Polytechnic Institute",
       "area": "B.S. in Computer & Systems Engineering",
       "studyType": "B.S.",
-      "startDate": "",
-      "endDate": "2021",
-      "gpa": "3.73/4.0",
+      "startDate": "2017-09",
+      "endDate": "Sep. 2017 - May 2021",
+      "gpa": null,
       "courses": []
     }
   ],
   "skills": [
     {
-      "name": "Programming Languages",
+      "name": "Programming",
       "keywords": [
-        "Python",
-        "Java",
-        "C/C++"
+        "C",
+        "C++",
+        "C#",
+        "Python (PyTorch)",
+        "Java"
       ]
     },
     {
-      "name": "Frameworks/Technologies",
+      "name": "Tools & Frameworks",
       "keywords": [
-        "TensorFlow",
-        "PyTorch",
-        "Wireshark",
         "Docker",
-        "AWS",
-        "Azure",
-        "Terraform",
         "Kubernetes",
-        "Maven",
-        "Helm",
-        "Kafka",
-        "Git"
+        "Terraform",
+        "Hugging Face"
+      ]
+    },
+    {
+      "name": "Research Areas",
+      "keywords": [
+        "Deep Learning",
+        "Autonomous Driving",
+        "Mobile Computing"
       ]
     }
   ],
@@ -167,9 +176,9 @@
       "name": "Research Interests",
       "keywords": [
         "3D Vision",
-        "Generative Model",
         "Trustworthy AI",
-        "AI Security for Autonomous Vehicles"
+        "AI Security for Autonomous Vehicles",
+        "Mobile Computing"
       ]
     }
   ],
@@ -177,21 +186,15 @@
   "presentations": [],
   "projects": [
     {
+      "name": "Cosmospapers Research Assistant Platform",
+      "date": "2026-01 - Present",
+      "description": "Developed a RAG-based paper search engine, collected and vectorized 9000+ papers from 10+ top AI and Security conferences, and designed in-house algorithms to cluster papers and extract research-trend keywords.",
+      "url": ""
+    },
+    {
       "name": "User Recommendation MicroService",
-      "date": "2022-08 – 2022-12",
-      "description": "Built a user recommendation system using FastAPI, Vert.x, Spark Scala on AWS and GCP, achieving 10,000 RPS within a $0.7/hr budget.",
-      "url": ""
-    },
-    {
-      "name": "WeCloudChat Service",
-      "date": "2022-08 – 2022-09",
-      "description": "Deployed RESTful Spring applications on GKE, managed scaling with HPA, and configured Azure Front Door for multi-cloud routing.",
-      "url": ""
-    },
-    {
-      "name": "Driver Matching System with Streaming Processing",
-      "date": "2022-01 – 2022-03",
-      "description": "Implemented a real-time driver matching system and managed IoT streams with Samza API.",
+      "date": "2022-08 - 2022-12",
+      "description": "Developed Spark-based ETL pipelines to preprocess ~1TB Twitter dataset on GCP Dataproc; orchestrated AWS infrastructure and achieved 10,000 RPS within $0.7/hr budget.",
       "url": ""
     }
   ],

@@ -1,6 +1,42 @@
 {
     "publications": [
         {
+            "id": "ff3r-2026",
+            "title": "FF3R: Feedforward Feature 3D Reconstruction from Unconstrained Views",
+            "authors": "Chaoyi Zhou, Run Wang, et al.",
+            "venue": "CVPR 2026 Findings",
+            "venue_short": "CVPR Findings",
+            "proceedings": "Proceedings of CVPR 2026",
+            "date": "2026-01-15",
+            "year": "2026",
+            "month": "",
+            "type": "conference",
+            "status": "accepted",
+            "url": "",
+            "doi": "",
+            "address": "",
+            "pages": "",
+            "pdf_url": "",
+            "slides_url": "",
+            "code_url": "",
+            "bibtex_key": "zhou2026ff3r",
+            "tags": [
+                "3d computer vision",
+                "reconstruction"
+            ],
+            "abstract": "",
+            "keywords": [
+                "3D reconstruction",
+                "unconstrained views",
+                "feedforward features"
+            ],
+            "featured": true,
+            "award": "",
+            "note": "Accepted",
+            "acceptance_rate": "",
+            "citation": ""
+        },
+        {
             "id": "flexmap-2026",
             "title": "FlexMap: Generalized HD Map Construction from Flexible Camera Configurations",
             "authors": "Run Wang, Chaoyi Zhou, Amir Salarpour, Xi Liu, Zhi-Qi Cheng, Feng Luo, Mert D. Pesé, Siyu Huang",
@@ -77,7 +113,7 @@
         },
         {
             "id": "mapp-2025",
-            "title": "Mapp: Predictive UI View Pre-Caching for Improving the Responsiveness of Mobile Apps",
+            "title": "MAPP: Predictive UI View Pre-Caching for Improving the Responsiveness of Mobile Apps",
             "authors": "Run Wang, Zach Herman, Marco Brocanelli, Xiaorui Wang",
             "venue": "2025 IEEE/ACM 33rd International Symposium on Quality of Service (IWQoS)",
             "venue_short": "IWQoS",

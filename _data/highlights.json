@@ -9,6 +9,16 @@
         },
         {
             "type": "publication",
+            "publication_id": "ff3r-2026",
+            "timestamp": "2026-01-15"
+        },
+        {
+            "type": "publication",
+            "publication_id": "flexmap-2026",
+            "timestamp": "2026-01-29"
+        },
+        {
+            "type": "publication",
             "publication_id": "infocom-2026",
             "timestamp": "2025-12-08"
         },
