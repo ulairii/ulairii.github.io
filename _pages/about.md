@@ -11,17 +11,35 @@ redirect_from:
 
 ## Education Experience
 
-* **Clemson University**, Clemson, SC  
-  Ph.D. Student in Computer Science, **Aug. 2025 - Present**  
-  Concentration: 3D Computer Vision, AI Security and Mobile Computing
+<div class="academic-edu">
+  <div class="academic-edu__item">
+    <div class="academic-edu__head">
+      <span class="academic-edu__school">Clemson University</span>
+      <span class="academic-edu__place">Clemson, SC</span>
+    </div>
+    <div class="academic-edu__degree">Ph.D. Student in Computer Science</div>
+    <div class="academic-edu__date">Aug. 2025 - Present</div>
+    <div class="academic-edu__detail">Concentration: 3D Computer Vision, AI Security and Mobile Computing</div>
+  </div>
 
-* **Carnegie Mellon University**, Pittsburgh, PA  
-  M.S. in Electrical and Computer Engineering (Applied Advanced Program), **Sep. 2021 - May 2023**
+  <div class="academic-edu__item">
+    <div class="academic-edu__head">
+      <span class="academic-edu__school">Carnegie Mellon University</span>
+      <span class="academic-edu__place">Pittsburgh, PA</span>
+    </div>
+    <div class="academic-edu__degree">M.S. in Electrical and Computer Engineering (Applied Advanced Program)</div>
+    <div class="academic-edu__date">Sep. 2021 - May 2023</div>
+  </div>
 
-* **Rensselaer Polytechnic Institute**, Troy, NY  
-  B.S. in Computer & Systems Engineering, **Sep. 2017 - May 2021**
-
-<p class="academic-home__links"><a href="/files/CV_RW.pdf">CV (PDF)</a> | <a href="https://scholar.google.com/citations?user=lYRE8BgAAAAJ&hl=en">Google Scholar</a> | <a href="https://github.com/RunWang123">GitHub</a> | <a href="mailto:runw@clemson.edu">Email</a></p>
+  <div class="academic-edu__item">
+    <div class="academic-edu__head">
+      <span class="academic-edu__school">Rensselaer Polytechnic Institute</span>
+      <span class="academic-edu__place">Troy, NY</span>
+    </div>
+    <div class="academic-edu__degree">B.S. in Computer &amp; Systems Engineering</div>
+    <div class="academic-edu__date">Sep. 2017 - May 2021</div>
+  </div>
+</div>
 
 ## Research Topics
 * 3D Vision

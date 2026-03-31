@@ -92,6 +92,55 @@
   text-underline-offset: 0.11em;
 }
 
+.academic-edu {
+  margin: 0.1rem 0 0.45rem;
+}
+
+.academic-edu__item {
+  margin: 0 0 0.42rem;
+  padding: 0 0 0.28rem;
+  border-bottom: 1px solid #e3e8ee;
+}
+
+.academic-edu__item:last-child {
+  border-bottom: 0;
+  margin-bottom: 0.2rem;
+}
+
+.academic-edu__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 0.05rem;
+}
+
+.academic-edu__school {
+  font-weight: 700;
+}
+
+.academic-edu__place {
+  color: #4b5563;
+  font-size: 0.88em;
+  white-space: nowrap;
+}
+
+.academic-edu__degree {
+  margin: 0;
+}
+
+.academic-edu__date {
+  font-family: "Avenir Next Condensed", "Arial Narrow", "Segoe UI", sans-serif;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  margin: 0.02rem 0 0;
+}
+
+.academic-edu__detail {
+  margin: 0.03rem 0 0;
+  color: #374151;
+}
+
 @media (min-width: 900px) {
   .academic-home {
     font-size: 0.9rem;
@@ -105,5 +154,20 @@
 
   .academic-home ul {
     column-gap: 1.1rem;
+  }
+
+  .academic-edu__item {
+    margin-bottom: 0.35rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .academic-edu__head {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .academic-edu__place {
+    white-space: normal;
   }
 }
