@@ -79,6 +79,22 @@
   font-weight: 650;
 }
 
+.academic-home .name-underline {
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 0.09em;
+  text-underline-offset: 0.11em;
+}
+
+.academic-home .conference-highlight {
+  display: inline-block;
+  font-weight: 700;
+  color: #0b5d89;
+  background: #eaf5fb;
+  border-radius: 0.22rem;
+  padding: 0 0.28rem;
+}
+
 .academic-home__links {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.8rem;

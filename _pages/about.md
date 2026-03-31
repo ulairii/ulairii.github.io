@@ -49,7 +49,8 @@ redirect_from:
 ## Selected Publications
 {% assign featured_pubs = site.data.publications.publications | where: "featured", true | sort: "date" | reverse %}
 {% for pub in featured_pubs limit: 5 %}
-* **{{ pub.title }}**. {{ pub.authors }}. {{ pub.venue_short | default: pub.venue }}, {{ pub.year }}{% if pub.acceptance_rate and pub.acceptance_rate != "" %} (Acceptance Rate: {{ pub.acceptance_rate }}){% endif %}{% if pub.url and pub.url != "" %}. [Link]({{ pub.url }}){% endif %}
+{% assign styled_authors = pub.authors | replace: "Run Wang", "<span class='name-underline'>Run Wang</span>" %}
+* **{{ pub.title }}**. {{ styled_authors }}. <span class="conference-highlight">{{ pub.venue_short | default: pub.venue }}</span>, {{ pub.year }}{% if pub.acceptance_rate and pub.acceptance_rate != "" %} (Acceptance Rate: {{ pub.acceptance_rate }}){% endif %}{% if pub.url and pub.url != "" %}. [Link]({{ pub.url }}){% endif %}
 {% endfor %}
 
 ## Research Experience Snapshot
