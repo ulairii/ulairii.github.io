@@ -19,7 +19,7 @@ I've created a visitor map system with multiple options for tracking website vis
 **Setup Steps:**
 1. Go to [clustrmaps.com](https://www.clustrmaps.com)
 2. Click "Get your free map"
-3. Enter your website URL: `https://runwang123.github.io`
+3. Enter your website URL: `https://ulairii.github.io`
 4. Choose map style (I recommend the "White" theme)
 5. Copy the provided HTML code
 6. Replace `YOUR_CLUSTRMAPS_ID` in the visitor-map.html file with your actual ID
@@ -56,7 +56,7 @@ I've created a visitor map system with multiple options for tracking website vis
 
 1. **Get your ClustrMaps widget:**
    - Visit [clustrmaps.com](https://www.clustrmaps.com)
-   - Enter your site URL: `https://runwang123.github.io`
+   - Enter your site URL: `https://ulairii.github.io`
    - Choose "Get Free Map"
    - Select style preferences
 
