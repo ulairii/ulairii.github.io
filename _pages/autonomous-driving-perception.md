@@ -1,13 +1,15 @@
 ---
-layout: single
+layout: archive
 title: "From Perception to Planning: Key Papers in Autonomous Driving"
 permalink: /autonomous-driving-perception/
 author_profile: true
+academic_style: true
 read_time: false
 redirect_from:
   - /autonomous-driving-perception/22-pretraining/
 ---
 
+<div class="series-guide" markdown="1">
 A concise history of autonomous-driving perception and motion planning through the papers that changed their representations, architectures, and training objectives. **12 articles**, usually **5–6 minutes each**, cover selected developments from **2012 to 2025**.
 
 The series follows a technical dependency order rather than a strict publication timeline: image and 3D representations → scene structure and prediction → trajectory planning and evaluation. The date ranges below place each group of papers in context. These approaches often coexist; newer does not automatically mean better.
@@ -75,3 +77,5 @@ Each article explains the main computation, the reason for the design, and its t
 “Planning” here means local motion or trajectory planning: selecting the vehicle's future movement under road, interaction, and vehicle constraints. It is distinct from choosing a route through a city or tracking a trajectory with a low-level controller.
 
 This is a selective paper history, not an exhaustive survey or a current leaderboard. General pretraining and vision-language models are outside the main thread. World models appear in the final article in relation to simulation and evaluation. The original 24-part introduction has been consolidated into this edition; old chapter links redirect to the relevant article or this guide.
+
+</div>

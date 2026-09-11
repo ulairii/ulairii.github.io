@@ -198,3 +198,20 @@ html[data-theme="dark"] .academic-page {
 .academic-page .blog-index .post-item-wrapper { padding: 0.85rem 0; }
 .academic-page .blog-series-links a:first-child { font-weight: 600; }
 .academic-page .blog-index .tag-chip { font-size: 0.83rem; padding: 0.25rem 0.5rem; }
+
+/* The series guide uses the same hierarchy as the blog archive. */
+.academic-page .series-guide { font-size: 0.95rem; line-height: 1.55; }
+.academic-page .series-guide > p { max-width: 82ch; margin-bottom: 0.65rem; }
+.academic-page .series-guide h2 {
+  margin: 1.15rem 0 0.55rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--academic-rule);
+  font-size: 1.3rem;
+}
+.academic-page .series-guide h3 {
+  font: 700 clamp(18px, 1.08rem, 22px)/1.4 "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  margin: 0.7rem 0 0.2rem;
+}
+.academic-page .series-guide h3 a { color: var(--academic-text); text-decoration: none; }
+.academic-page .series-guide h3 a:hover { text-decoration: underline; }
+.academic-page .series-guide h3 + p { font-size: 0.8rem; color: var(--academic-muted); }
