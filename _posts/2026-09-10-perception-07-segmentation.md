@@ -4,12 +4,10 @@ date: '2026-09-10'
 permalink: /autonomous-driving-perception/07-segmentation/
 excerpt: The detector has found the truck and cyclist. The car still needs to understand the road between them. A rectangle is a poor description of a curved lane boundary, the edge of a sidewalk, or an irregular patch of construction material.
 tags:
-- autonomous vehicles
-- perception
-- deep learning
-- perception series
+  - autonomous driving
 series_number: 7
 read_time: false
+series: perception
 ---
 
 {% include perception-series-nav.html %}

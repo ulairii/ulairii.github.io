@@ -3,11 +3,9 @@ title: 'Investigating Physical Latency Attacks Against Camera-Based Perception'
 date: 2025-12-25
 permalink: /posts/2025/12/detstorm-latency-attacks/
 tags:
-  - security
-  - autonomous-driving
-  - adversarial-attacks
-  - latency
-  - one paper per day
+  - ai security
+  - autonomous driving
+series: paper-notes
 ---
 
 In the rapidly evolving field of autonomous systems, visual perception is the cornerstone of safe navigation. A recent paper titled **"Investigating Physical Latency Attacks Against Camera-Based Perception"**, accepted to the 2025 IEEE Symposium on Security and Privacy (S&P), introduces a novel and concerning threat vector: **Detstorm**.

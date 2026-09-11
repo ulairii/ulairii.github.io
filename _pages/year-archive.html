@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /year-archive/
-title: "Blog posts"
+title: "Blog"
 author_profile: true
 academic_style: true
 redirect_from:
@@ -10,186 +10,95 @@ redirect_from:
 ---
 
 {% include base_path %}
-{% include group-by-array collection=site.posts field="tags" %}
 
-
-
-<!-- Filter UI -->
-<div id="blog-filter-ui">
-  <!-- Row 1: Available Tags -->
-  <div>
-    <span class="tags-label">Filter by Topic</span>
-    <div id="row-available" class="tag-container">
-      {% for tag in group_names %}
-      {% assign tag_slug = tag | slugify %}
-      <button class="tag-chip tag-avail" data-slug="{{ tag_slug }}" data-label="{{ tag }}"
-        onclick="addTag('{{ tag_slug }}')">
-        {{ tag }}
-      </button>
-      {% endfor %}
-    </div>
-  </div>
-
-  <!-- Row 2: Selected Tags -->
-  <div id="filter-area" style="display: none;">
-    <span class="tags-label">Active Filters</span>
-    <div id="row-selected" class="tag-container">
-      <!-- Selected tags injected here -->
-    </div>
-  </div>
-</div>
-
-<div id="posts-list">
-  {% capture written_year %}'None'{% endcapture %}
-  {% for post in site.posts %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-  <h2 id="{{ year | slugify }}" class="archive__subtitle year-header">{{ year }}</h2>
-  {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
-
-  <div class="post-item-wrapper" data-tags="{% for t in post.tags %}{{ t | slugify }} {% endfor %}">
-    {% include archive-single.html %}
-  </div>
-  {% endfor %}
-</div>
-
-<script type="application/json" id="blog-tags-data">
-  [
-    {% for tag in group_names %}
-      { "slug": {{ tag | slugify | jsonify }}, "label": {{ tag | jsonify }} }{% unless forloop.last %},{% endunless %}
+<nav id="blog-filter-ui" aria-label="Blog topics" hidden>
+  <span class="tags-label">Browse by topic</span>
+  <div class="tag-container">
+    <button class="tag-chip tag-selected" data-topic="all" aria-pressed="true">All topics</button>
+    {% for topic in site.data.blog_topics %}
+    <button class="tag-chip" data-topic="{{ topic.id }}" aria-pressed="false">{{ topic.title }}</button>
     {% endfor %}
-  ]
-</script>
+  </div>
+</nav>
+<p id="blog-filter-status" class="blog-meta" role="status" aria-live="polite"></p>
 
+<section class="blog-section" aria-labelledby="series-heading">
+  <h2 id="series-heading" class="archive__subtitle">Series &amp; collections</h2>
+  {% for series in site.data.blog_series %}
+  {% assign members = site.posts | where: 'series', series.id %}
+  <article class="blog-series" data-blog-group>
+    <h3>{% if series.url %}<a href="{{ series.url | relative_url }}">{{ series.title }}</a>{% else %}{{ series.title }}{% endif %}</h3>
+    <p class="blog-meta">{{ series.note }}</p>
+    <p>{{ series.description }}</p>
+    {% if series.url %}
+    <p class="blog-series-links"><a href="{{ series.start | relative_url }}">Start with Chapter 1</a> · <a href="{{ series.url | relative_url }}">Full series guide</a></p>
+    {% endif %}
+    <details{% unless series.url %} open{% endunless %}>
+      <summary>{% if series.url %}Browse all {{ members.size }} chapters{% else %}Browse {{ members.size }} notes{% endif %}</summary>
+      <ol class="blog-series-list"{% unless series.url %} role="list"{% endunless %}>
+        {% if series.id == 'perception' %}
+          {% assign members = members | sort: 'series_number' %}
+        {% endif %}
+        {% for post in members %}
+        <li data-blog-entry data-topics="{% for tag in post.tags %}{{ tag | slugify }} {% endfor %}"{% if post.series_number %} value="{{ post.series_number }}"{% endif %}>
+          <a href="{{ post.url | relative_url }}">{% if post.series_number %}{% assign chapter_index = post.series_number | minus: 1 %}{{ site.data.perception_series[chapter_index].title }}{% else %}{{ post.title }}{% endif %}</a>
+        </li>
+        {% endfor %}
+      </ol>
+    </details>
+  </article>
+  {% endfor %}
+</section>
+
+<section class="blog-section" aria-labelledby="other-heading">
+  <h2 id="other-heading" class="archive__subtitle">Other posts</h2>
+  <div id="posts-list">
+    {% for post in site.posts %}
+    {% unless post.series %}
+    <div class="post-item-wrapper" data-blog-entry data-topics="{% for tag in post.tags %}{{ tag | slugify }} {% endfor %}">
+      {% include archive-single.html %}
+    </div>
+    {% endunless %}
+    {% endfor %}
+  </div>
+</section>
+
+<script type="application/json" id="blog-topic-data">{{ site.data.blog_topics | jsonify }}</script>
 <script>
-  /* State: Array of selected tag slugs */
-  var selectedSlugs = [];
-
-  /* Data: All tags for lookup */
-  var allTags = [];
-  try {
-    var tagDataEl = document.getElementById('blog-tags-data');
-    if (tagDataEl) {
-      allTags = JSON.parse(tagDataEl.textContent);
-    }
-  } catch (e) {
-    console.error("Failed to parse blog tags", e);
-  }
-
-  function init() {
-    var hash = window.location.hash.substring(1);
-    if (hash) {
-      try {
-        hash = decodeURIComponent(hash);
-        /* Supports comma separated: #tag1,tag2 */
-        var parts = hash.split(',').filter(function (s) { return s.length > 0; });
-        selectedSlugs = parts;
-      } catch (e) { }
-    } else {
-      selectedSlugs = [];
-    }
-
-    render();
-  }
-
-  function addTag(slug) {
-    if (selectedSlugs.indexOf(slug) === -1) {
-      selectedSlugs.push(slug);
-      updateState();
-    }
-  }
-
-  function removeTag(slug) {
-    selectedSlugs = selectedSlugs.filter(function (s) { return s !== slug; });
-    updateState();
-  }
-
-  function updateState() {
-    if (selectedSlugs.length > 0) {
-      window.location.hash = selectedSlugs.join(',');
-    } else {
-      /* Clear hash cleanly */
-      history.pushState("", document.title, window.location.pathname + window.location.search);
-      /* Trigger render manually since pushState doesn't fire hashchange */
-      render();
-    }
-  }
-
+(function () {
+  const topics = JSON.parse(document.getElementById('blog-topic-data').textContent);
+  const buttons = document.querySelectorAll('[data-topic]');
+  const entries = document.querySelectorAll('[data-blog-entry]');
   function render() {
-    var rowAvail = document.getElementById('row-available');
-    var rowSel = document.getElementById('row-selected');
-    var docFilterArea = document.getElementById('filter-area');
-    var posts = document.querySelectorAll('.post-item-wrapper');
-    var yearHeaders = document.querySelectorAll('.year-header');
-
-    /* 1. Update Available Tags (Show/Hide) */
-    var availBtns = rowAvail.querySelectorAll('button');
-    availBtns.forEach(function (btn) {
-      var s = btn.getAttribute('data-slug');
-      if (selectedSlugs.indexOf(s) !== -1) {
-        btn.style.display = 'none'; /* Move to selected */
-      } else {
-        btn.style.display = 'inline-block';
-      }
+    let requested = [];
+    try { requested = decodeURIComponent(location.hash.slice(1)).split(','); } catch (_) {}
+    // Preserve old tag bookmarks by mapping them to the broader topics.
+    const selected = topics.filter(t => requested.some(s => s === t.id || t.aliases.includes(s)));
+    const ids = selected.map(t => t.id);
+    buttons.forEach(button => {
+      const active = ids.length ? ids.includes(button.dataset.topic) : button.dataset.topic === 'all';
+      button.classList.toggle('tag-selected', active);
+      button.setAttribute('aria-pressed', String(active));
     });
-
-    /* 2. Render Selected Tags */
-    rowSel.innerHTML = '';
-    if (selectedSlugs.length > 0) {
-      docFilterArea.style.display = 'block';
-
-      selectedSlugs.forEach(function (slug) {
-        /* Find label */
-        var tObj = undefined;
-        for (var i = 0; i < allTags.length; i++) {
-          if (allTags[i].slug === slug) { tObj = allTags[i]; break; }
-        }
-        var label = tObj ? tObj.label : slug;
-
-        var btn = document.createElement('button');
-        btn.className = 'tag-chip tag-selected';
-        btn.onclick = function () { removeTag(slug); };
-        btn.innerHTML = label + ' <span class="tag-remove-icon">&times;</span>';
-        rowSel.appendChild(btn);
-      });
-
-      /* Hide Year Headers when filtering */
-      yearHeaders.forEach(function (h) { h.style.display = 'none'; });
-
-    } else {
-      docFilterArea.style.display = 'none';
-      /* Show Year Headers when NOT filtering (default view) */
-      yearHeaders.forEach(function (h) { h.style.display = 'block'; });
-    }
-
-    /* 3. Filter Posts */
-    posts.forEach(function (p) {
-      if (selectedSlugs.length === 0) {
-        p.style.display = 'block'; /* Default: show all when no filter */
-        return;
-      }
-
-      var pTagsRaw = p.getAttribute('data-tags') || "";
-      var pTags = pTagsRaw.split(' ');
-
-      /* Logic: Show if post matches ANY selected tag (Union) */
-      var match = false;
-      for (var i = 0; i < selectedSlugs.length; i++) {
-        if (pTags.indexOf(selectedSlugs[i]) !== -1) {
-          match = true;
-          break;
-        }
-      }
-
-      if (match) {
-        p.style.display = 'block';
-      } else {
-        p.style.display = 'none';
-      }
+    let count = 0;
+    entries.forEach(entry => {
+      entry.hidden = ids.length > 0 && !ids.some(id => entry.dataset.topics.split(' ').includes(id));
+      if (!entry.hidden) count++;
     });
+    document.querySelectorAll('[data-blog-group], .blog-section').forEach(group => {
+      group.hidden = !group.querySelector('[data-blog-entry]:not([hidden])');
+    });
+    document.getElementById('blog-filter-status').textContent = ids.length
+      ? selected.map(t => t.title).join(' / ') + ' · ' + count + ' posts' : '';
   }
-
-  document.addEventListener("DOMContentLoaded", init);
-  window.addEventListener('hashchange', init);
+  buttons.forEach(button => button.addEventListener('click', () => {
+    const topic = button.dataset.topic;
+    history.pushState(null, '', location.pathname + location.search + (topic === 'all' ? '' : '#' + topic));
+    render();
+  }));
+  window.addEventListener('hashchange', render);
+  window.addEventListener('popstate', render);
+  render();
+  document.getElementById('blog-filter-ui').hidden = false;
+})();
 </script>

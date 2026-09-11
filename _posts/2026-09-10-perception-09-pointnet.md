@@ -4,12 +4,10 @@ date: '2026-09-10'
 permalink: /autonomous-driving-perception/09-pointnet/
 excerpt: Lidar gives us points in meters, which seems like an immediate advantage over image pixels. But the points arrive as an irregular collection. Some objects have many returns, others have few, and their order in memory need not have any spatial meaning.
 tags:
-- autonomous vehicles
-- perception
-- deep learning
-- perception series
+  - autonomous driving
 series_number: 9
 read_time: false
+series: perception
 ---
 
 {% include perception-series-nav.html %}

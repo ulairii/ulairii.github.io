@@ -4,12 +4,10 @@ date: '2026-09-10'
 permalink: /autonomous-driving-perception/04-geometry/
 excerpt: 'A detector says the pedestrian is near the right side of the image. The car needs to know something different: where is that person relative to the bumper and the road? Connecting those descriptions requires geometry. A neural network can estimate unknown quantities, but the coordinate systems still have to agree.'
 tags:
-- autonomous vehicles
-- perception
-- deep learning
-- perception series
+  - autonomous driving
 series_number: 4
 read_time: false
+series: perception
 ---
 
 {% include perception-series-nav.html %}

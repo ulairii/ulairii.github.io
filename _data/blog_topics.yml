@@ -1,0 +1,12 @@
+- id: autonomous-driving
+  title: Autonomous Driving
+  aliases: [autonomous-vehicles, perception, deep-learning, perception-series]
+- id: ai-security
+  title: AI Security
+  aliases: [security, adversarial-attacks, drone-security, latency, one-paper-per-day]
+- id: tools-tutorials
+  title: Tools & Tutorials
+  aliases: [carla, simulation, windows, tutorial]
+- id: travel
+  title: Travel
+  aliases: [road-trip, photography]

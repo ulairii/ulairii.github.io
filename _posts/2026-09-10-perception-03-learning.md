@@ -4,12 +4,10 @@ date: '2026-09-10'
 permalink: /autonomous-driving-perception/03-learning/
 excerpt: 'Imagine trying to describe a car with a list of rules: find two wheels, look for a windshield, then check for a roughly rectangular body. The rules might work for a clean side view. At our intersection, the parked truck hides half the car, the lighting changes, and the visible wheels may be tiny.'
 tags:
-- autonomous vehicles
-- perception
-- deep learning
-- perception series
+  - autonomous driving
 series_number: 3
 read_time: false
+series: perception
 ---
 
 {% include perception-series-nav.html %}

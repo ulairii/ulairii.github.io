@@ -4,12 +4,10 @@ date: '2026-09-10'
 permalink: /autonomous-driving-perception/18-sparse-perception/
 excerpt: A dense BEV grid reserves feature locations across a large region, including much empty or irrelevant space. If the immediate task is to detect a limited set of road users, could the model concentrate more computation around candidate objects instead?
 tags:
-- autonomous vehicles
-- perception
-- deep learning
-- perception series
+  - autonomous driving
 series_number: 18
 read_time: false
+series: perception
 ---
 
 {% include perception-series-nav.html %}

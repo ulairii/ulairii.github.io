@@ -4,12 +4,10 @@ date: '2026-09-10'
 permalink: /autonomous-driving-perception/23-world-models/
 excerpt: 'Imagine pausing our car before the crossing and asking two questions: what might happen if it slows down, and what might happen if it continues? A world model attempts to predict some aspect of the evolving environment, potentially conditioned on those different actions.'
 tags:
-- autonomous vehicles
-- perception
-- deep learning
-- perception series
+  - autonomous driving
 series_number: 23
 read_time: false
+series: perception
 ---
 
 {% include perception-series-nav.html %}

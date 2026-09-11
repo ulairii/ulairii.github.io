@@ -4,12 +4,10 @@ date: '2026-09-10'
 permalink: /autonomous-driving-perception/22-pretraining/
 excerpt: Our detector has learned from carefully labeled driving scenes. It still encounters unfamiliar vehicles, unusual road equipment, and situations too rare to label exhaustively. One response is to begin with representations learned from a much broader collection of images, videos, or image-text pairs.
 tags:
-- autonomous vehicles
-- perception
-- deep learning
-- perception series
+  - autonomous driving
 series_number: 22
 read_time: false
+series: perception
 ---
 
 {% include perception-series-nav.html %}

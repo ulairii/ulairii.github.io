@@ -4,12 +4,10 @@ date: '2026-09-10'
 permalink: /autonomous-driving-perception/15-fusion/
 excerpt: The camera recognizes the cyclist's appearance, while lidar samples surfaces near the estimated position. Radar may add evidence about relative motion. Combining them sounds straightforward until their coordinates, timestamps, uncertainties, and meanings disagree.
 tags:
-- autonomous vehicles
-- perception
-- deep learning
-- perception series
+  - autonomous driving
 series_number: 15
 read_time: false
+series: perception
 ---
 
 {% include perception-series-nav.html %}

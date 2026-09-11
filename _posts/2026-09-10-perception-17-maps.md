@@ -4,12 +4,10 @@ date: '2026-09-10'
 permalink: /autonomous-driving-perception/17-maps/
 excerpt: A green light is visible above our intersection. The car recognizes its color, but still needs to know which lane it controls. The road markings are partly worn, and one lane curves left while another continues straight. A collection of object boxes cannot describe these relationships.
 tags:
-- autonomous vehicles
-- perception
-- deep learning
-- perception series
+  - autonomous driving
 series_number: 17
 read_time: false
+series: perception
 ---
 
 {% include perception-series-nav.html %}

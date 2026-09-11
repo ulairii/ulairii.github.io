@@ -4,12 +4,10 @@ date: '2026-09-10'
 permalink: /autonomous-driving-perception/02-sensors/
 excerpt: The cyclist from Chapter 1 is approaching the intersection at dusk. A camera records a small dark shape, lidar returns a few points from the bicycle and rider, and radar may report a reflection with a measured relative speed. These observations describe the same scene in very different ways.
 tags:
-- autonomous vehicles
-- perception
-- deep learning
-- perception series
+  - autonomous driving
 series_number: 2
 read_time: false
+series: perception
 ---
 
 {% include perception-series-nav.html %}

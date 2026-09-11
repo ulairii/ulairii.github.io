@@ -4,12 +4,10 @@ date: '2026-09-10'
 permalink: /autonomous-driving-perception/24-evaluation/
 excerpt: Return to the intersection from Chapter 1. The truck is parked near the crossing, the cyclist is moving along the road, and a pedestrian may be hidden from view. We now have many ways to describe the scene. How do we decide whether any of them actually work well?
 tags:
-- autonomous vehicles
-- perception
-- deep learning
-- perception series
+  - autonomous driving
 series_number: 24
 read_time: false
+series: perception
 ---
 
 {% include perception-series-nav.html %}

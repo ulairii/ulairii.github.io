@@ -4,12 +4,10 @@ date: '2026-09-10'
 permalink: /autonomous-driving-perception/16-tracking/
 excerpt: The cyclist briefly disappears behind the truck. A detector processing only the latest image may return no cyclist at all. A useful temporal system should remember the recent observation, estimate where the cyclist might be now, and recognize the same person when they reappear.
 tags:
-- autonomous vehicles
-- perception
-- deep learning
-- perception series
+  - autonomous driving
 series_number: 16
 read_time: false
+series: perception
 ---
 
 {% include perception-series-nav.html %}

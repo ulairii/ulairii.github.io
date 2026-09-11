@@ -4,12 +4,10 @@ date: '2026-09-10'
 permalink: /autonomous-driving-perception/21-planning/
 excerpt: Suppose a new detector improves its average score by finding more distant vehicles. At our intersection, it still places the cyclist slightly too close to the curb. The planner's response may barely improve, even though the perception benchmark does.
 tags:
-- autonomous vehicles
-- perception
-- deep learning
-- perception series
+  - autonomous driving
 series_number: 21
 read_time: false
+series: perception
 ---
 
 {% include perception-series-nav.html %}

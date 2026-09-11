@@ -4,12 +4,10 @@ date: '2026-09-10'
 permalink: /autonomous-driving-perception/10-voxels/
 excerpt: The lidar cloud contains a broad truck side, a few bicycle returns, and scattered points from the road. Point-based networks can process that irregular collection directly. Another approach places the points into a regular grid so neighboring features have a clear spatial relationship.
 tags:
-- autonomous vehicles
-- perception
-- deep learning
-- perception series
+  - autonomous driving
 series_number: 10
 read_time: false
+series: perception
 ---
 
 {% include perception-series-nav.html %}

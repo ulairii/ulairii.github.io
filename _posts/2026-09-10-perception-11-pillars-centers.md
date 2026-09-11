@@ -4,12 +4,10 @@ date: '2026-09-10'
 permalink: /autonomous-driving-perception/11-pillars-centers/
 excerpt: 'Most road users move across the ground plane, and many driving decisions depend strongly on horizontal position. That observation motivates a useful compromise: organize lidar points into vertical columns, encode each column, and process the result as a two-dimensional top view.'
 tags:
-- autonomous vehicles
-- perception
-- deep learning
-- perception series
+  - autonomous driving
 series_number: 11
 read_time: false
+series: perception
 ---
 
 {% include perception-series-nav.html %}

@@ -6,10 +6,8 @@ read_time: false
 permalink: /autonomous-driving-perception/01-intersection/
 excerpt: "Follow one car toward a crossing to understand perception, tracking, prediction, and the information that connects them."
 tags:
-  - autonomous vehicles
-  - perception
-  - deep learning
-  - perception series
+  - autonomous driving
+series: perception
 ---
 
 {% include perception-series-nav.html %}

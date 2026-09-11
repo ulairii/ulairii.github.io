@@ -4,12 +4,10 @@ date: '2026-09-10'
 permalink: /autonomous-driving-perception/19-occupancy/
 excerpt: A piece of construction material falls near the crossing. It is low, irregular, and unlike the categories in the detector's label list. The car needs to avoid it even if the software cannot give it a familiar name.
 tags:
-- autonomous vehicles
-- perception
-- deep learning
-- perception series
+  - autonomous driving
 series_number: 19
 read_time: false
+series: perception
 ---
 
 {% include perception-series-nav.html %}

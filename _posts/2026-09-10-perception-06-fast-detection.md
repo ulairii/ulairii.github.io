@@ -4,12 +4,10 @@ date: '2026-09-10'
 permalink: /autonomous-driving-perception/06-fast-detection/
 excerpt: The pedestrian has begun moving toward the crossing. An accurate detection returned too late describes where the person used to be. This makes speed a practical requirement, but reducing computation can remove exactly the small details needed to detect a distant road user.
 tags:
-- autonomous vehicles
-- perception
-- deep learning
-- perception series
+  - autonomous driving
 series_number: 6
 read_time: false
+series: perception
 ---
 
 {% include perception-series-nav.html %}

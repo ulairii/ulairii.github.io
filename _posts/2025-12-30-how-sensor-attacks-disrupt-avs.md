@@ -4,8 +4,8 @@ date: 2025-12-30
 permalink: /posts/2025/12/sok-sensor-attacks-avs/
 tags:
   - ai security
-  - one paper per day
-  - autonomous vehicles
+  - autonomous driving
+series: paper-notes
 ---
 
 Autonomous vehicles (AVs)—including self-driving cars, robots, and drones—rely heavily on multi-modal sensor pipelines to operate safely. However, these sensors are known to be vulnerable to adversarial attacks. A major gap in current research is the lack of a systematic ecosystem view: how exactly do sensor-induced errors propagate through the interconnected modules of an AV to eventually cause physical harm?

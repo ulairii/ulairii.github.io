@@ -4,8 +4,7 @@ date: 2025-12-23
 permalink: /posts/2025/12/flytrap-physical-distance-pulling-attack/
 tags:
   - ai security
-  - one paper per day
-  - drone security
+series: paper-notes
 ---
 
 Autonomous Target Tracking (ATT) systems, especially in drones, are becoming increasingly common for surveillance and photography. However, their reliance on visual tracking algorithms introduces significant security vulnerabilities. A new paper titled **"FlyTrap: Physical Distance-Pulling Attack Towards Camera-based Autonomous Target Tracking Systems"** exposes a critical flaw that allows attackers to manipulate drones into dangerous proximity.

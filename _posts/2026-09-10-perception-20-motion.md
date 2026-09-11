@@ -4,12 +4,10 @@ date: '2026-09-10'
 permalink: /autonomous-driving-perception/20-motion/
 excerpt: The cyclist moves through the intersection while the truck remains parked. A current occupancy grid describes where matter is estimated to be now. To choose a motion, the car also needs to reason about where road users may be when it reaches the crossing.
 tags:
-- autonomous vehicles
-- perception
-- deep learning
-- perception series
+  - autonomous driving
 series_number: 20
 read_time: false
+series: perception
 ---
 
 {% include perception-series-nav.html %}

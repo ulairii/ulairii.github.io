@@ -4,12 +4,10 @@ date: '2026-09-10'
 permalink: /autonomous-driving-perception/13-lift-splat-shoot/
 excerpt: Our car has several cameras facing different directions. Each produces useful features, but those features live in separate image coordinate systems. A cyclist seen near one camera's edge may appear again in another. The planner would rather receive one spatial description around the car.
 tags:
-- autonomous vehicles
-- perception
-- deep learning
-- perception series
+  - autonomous driving
 series_number: 13
 read_time: false
+series: perception
 ---
 
 {% include perception-series-nav.html %}

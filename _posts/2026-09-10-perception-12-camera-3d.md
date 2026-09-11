@@ -4,12 +4,10 @@ date: '2026-09-10'
 permalink: /autonomous-driving-perception/12-camera-3d/
 excerpt: We can now build three-dimensional detections from lidar. What changes if the car uses cameras for this task? The output may still be a box in meters, but the geometry entering the system is less direct. Depth must be estimated from appearance, multiple views, time, or some combination.
 tags:
-- autonomous vehicles
-- perception
-- deep learning
-- perception series
+  - autonomous driving
 series_number: 12
 read_time: false
+series: perception
 ---
 
 {% include perception-series-nav.html %}

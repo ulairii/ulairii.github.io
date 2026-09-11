@@ -3,11 +3,8 @@ title: "Building CARLA (v0.9.15) from Source on Windows 11 with Visual Studio 20
 date: 2026-02-20
 permalink: /posts/2026/02/carla-install-windows11/
 tags:
-  - carla
-  - autonomous vehicles
-  - simulation
-  - windows
-  - tutorial
+  - autonomous driving
+  - tools tutorials
 ---
 
 Building [CARLA](https://carla.org/) from source on Windows is notoriously painful — outdated guides, cryptic errors, and hours of compilation. This post is based on [this excellent guide by wambitz](https://wambitz.github.io/tech-blog/carla/python/c++/simulation/autonomous-vehicles/2024/09/29/carla-win11.html), combined with my own personal experience, additional fixes, and troubleshooting tips for issues I ran into that weren't covered elsewhere.

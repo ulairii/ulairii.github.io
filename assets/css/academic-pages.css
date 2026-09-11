@@ -168,3 +168,16 @@ html[data-theme="dark"] .academic-page {
 }
 .academic-page #ai-chat-launcher svg { width: 17px; height: 17px; }
 .academic-page #ai-chat-launcher svg path { fill: currentColor; }
+
+/* Series stay together; their chapters are available in reading order. */
+.academic-page .blog-section { margin-bottom: 0.85rem; }
+.academic-page .blog-series { padding: 0.65rem 0; border-bottom: 1px solid var(--academic-rule); }
+.academic-page .blog-series h3 { font: 600 1rem/1.4 "Segoe UI", "Helvetica Neue", Arial, sans-serif; margin: 0 0 0.15rem; }
+.academic-page .blog-series h3 a { color: var(--academic-text); text-decoration: none; }
+.academic-page .blog-series p { font-size: 0.85rem; }
+.academic-page .archive .blog-meta { color: var(--academic-muted); font-size: 0.77rem; }
+.academic-page #blog-filter-status:empty { display: none; }
+.academic-page .blog-series summary { width: fit-content; cursor: pointer; font-size: 0.83rem; color: var(--academic-link); }
+.academic-page .blog-series-list { padding-left: 1.5rem; margin: 0.45rem 0 0; font-size: 0.85rem; }
+.academic-page .blog-series-list li { margin-bottom: 0.25rem; padding-left: 0.1rem; }
+.academic-page [hidden] { display: none !important; }

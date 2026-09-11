@@ -4,8 +4,6 @@ date: 2025-08-01
 permalink: /posts/2025/08/road-trip-columbus-to-la/
 tags:
   - travel
-  - road trip
-  - photography
 ---
 
 This winter, I embarked on an epic cross-country road trip, driving over 2,200 miles from **Columbus, Ohio** to **Los Angeles, California**. It was an unforgettable journey through the changing landscapes of America.

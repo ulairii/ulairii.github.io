@@ -4,12 +4,10 @@ date: '2026-09-10'
 permalink: /autonomous-driving-perception/14-bevformer/
 excerpt: Lift-Splat-Shoot begins with image features and distributes them into space. Another strategy begins with a location in space and asks the images for relevant evidence. BEVFormer uses this second viewpoint to build a bird's-eye-view representation from multiple cameras and past information.
 tags:
-- autonomous vehicles
-- perception
-- deep learning
-- perception series
+  - autonomous driving
 series_number: 14
 read_time: false
+series: perception
 ---
 
 {% include perception-series-nav.html %}

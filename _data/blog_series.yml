@@ -1,0 +1,10 @@
+- id: perception
+  title: How Self-Driving Cars See
+  description: A step-by-step history of deep learning for driving perception, from cameras and neural networks to 3D detection, tracking, occupancy, and evaluation.
+  url: /autonomous-driving-perception/
+  start: /autonomous-driving-perception/01-intersection/
+  note: 24 chapters · About 10 minutes each · Read in order
+- id: paper-notes
+  title: Paper Reading Notes
+  description: Notes on research papers about attacks on autonomous vehicles and camera-based tracking.
+  note: Independent notes · Read in any order

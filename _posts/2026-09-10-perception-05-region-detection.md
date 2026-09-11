@@ -4,12 +4,10 @@ date: '2026-09-10'
 permalink: /autonomous-driving-perception/05-region-detection/
 excerpt: The car is still approaching our intersection, but imagine its software can only classify an entire image. It can report that a vehicle is present somewhere. That answer leaves the planner with almost everything it needs to know still missing.
 tags:
-- autonomous vehicles
-- perception
-- deep learning
-- perception series
+  - autonomous driving
 series_number: 5
 read_time: false
+series: perception
 ---
 
 {% include perception-series-nav.html %}

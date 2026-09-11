@@ -4,12 +4,10 @@ date: '2026-09-10'
 permalink: /autonomous-driving-perception/08-why-3d/
 excerpt: A box fits the parked truck perfectly in the camera image. Its category is correct, its score is high, and its visible outline is clear. Can the car now decide how much space remains beside it? Not yet. The box describes where the truck appears, not where its surfaces lie in meters.
 tags:
-- autonomous vehicles
-- perception
-- deep learning
-- perception series
+  - autonomous driving
 series_number: 8
 read_time: false
+series: perception
 ---
 
 {% include perception-series-nav.html %}
