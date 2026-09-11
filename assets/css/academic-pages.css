@@ -170,14 +170,31 @@ html[data-theme="dark"] .academic-page {
 .academic-page #ai-chat-launcher svg path { fill: currentColor; }
 
 /* Series stay together; their chapters are available in reading order. */
-.academic-page .blog-section { margin-bottom: 0.85rem; }
-.academic-page .blog-series { padding: 0.65rem 0; border-bottom: 1px solid var(--academic-rule); }
-.academic-page .blog-series h3 { font: 600 1rem/1.4 "Segoe UI", "Helvetica Neue", Arial, sans-serif; margin: 0 0 0.15rem; }
+.academic-page .blog-section { margin-bottom: 1.1rem; }
+.academic-page .blog-section > .archive__subtitle { font-size: 1.35rem; margin-top: 1.1rem; padding-bottom: 0.3rem; }
+.academic-page .blog-series { padding: 0.9rem 0; border-bottom: 1px solid var(--academic-rule); }
+.academic-page .blog-series h3 { font: 700 clamp(20px, 1.2rem, 24px)/1.3 "Segoe UI", "Helvetica Neue", Arial, sans-serif; margin: 0 0 0.3rem; }
 .academic-page .blog-series h3 a { color: var(--academic-text); text-decoration: none; }
-.academic-page .blog-series p { font-size: 0.85rem; }
-.academic-page .archive .blog-meta { color: var(--academic-muted); font-size: 0.77rem; }
+.academic-page .blog-series p { font-size: 0.95rem; line-height: 1.55; max-width: 82ch; }
+.academic-page .archive .blog-meta { color: var(--academic-muted); font-size: 0.8rem; margin-bottom: 0.55rem; }
 .academic-page #blog-filter-status:empty { display: none; }
-.academic-page .blog-series summary { width: fit-content; cursor: pointer; font-size: 0.83rem; color: var(--academic-link); }
-.academic-page .blog-series-list { padding-left: 1.5rem; margin: 0.45rem 0 0; font-size: 0.85rem; }
+.academic-page .blog-series summary { width: fit-content; cursor: pointer; font-size: 0.9rem; font-weight: 600; padding: 0.25rem 0; color: var(--academic-link); }
+.academic-page .blog-series-list { padding-left: 1.5rem; margin: 0.45rem 0 0; font-size: 0.93rem; line-height: 1.5; }
 .academic-page .blog-series-list li { margin-bottom: 0.25rem; padding-left: 0.1rem; }
 .academic-page [hidden] { display: none !important; }
+
+/* Make titles and reading actions distinct from descriptions and metadata. */
+.academic-page .blog-index .archive__item-title {
+  font-size: clamp(19px, 1.15rem, 23px);
+  font-weight: 700;
+  line-height: 1.35;
+  margin-bottom: 0.35rem;
+}
+.academic-page .blog-index .archive__item > p:not(.page__date):not(.page__meta) {
+  font-size: 0.95rem;
+  line-height: 1.55;
+  max-width: 82ch;
+}
+.academic-page .blog-index .post-item-wrapper { padding: 0.85rem 0; }
+.academic-page .blog-series-links a:first-child { font-weight: 600; }
+.academic-page .blog-index .tag-chip { font-size: 0.83rem; padding: 0.25rem 0.5rem; }

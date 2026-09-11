@@ -11,6 +11,7 @@ redirect_from:
 
 {% include base_path %}
 
+<div class="blog-index">
 <nav id="blog-filter-ui" aria-label="Blog topics" hidden>
   <span class="tags-label">Browse by topic</span>
   <div class="tag-container">
@@ -62,6 +63,8 @@ redirect_from:
     {% endfor %}
   </div>
 </section>
+
+</div>
 
 <script type="application/json" id="blog-topic-data">{{ site.data.blog_topics | jsonify }}</script>
 <script>
