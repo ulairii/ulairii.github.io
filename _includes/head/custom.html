@@ -19,6 +19,6 @@
 
 <!-- end custom head snippets -->
 
-{% if page.academic_style %}
+{% if page.academic_style or page.series == 'perception' %}
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academic-pages.css">
 {% endif %}

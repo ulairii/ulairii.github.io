@@ -1,9 +1,9 @@
 {% assign chapter_number = page.series_number | default: 1 | plus: 0 %}
 {% assign chapter_count = site.data.perception_series | size %}
-<nav aria-label="Autonomous driving series" style="border-block: 1px solid #94a3b8; padding: 0.65em 0; margin: 1em 0; font-size: 0.85em;">
+<nav aria-label="Autonomous driving series" class="series-nav">
   <a href="{{ '/autonomous-driving-perception/' | relative_url }}">From Perception to Planning</a>
   <span> · Article {{ chapter_number }} of {{ chapter_count }}{% if page.reading_minutes %} · About {{ page.reading_minutes }} minutes{% endif %}</span>
-  <div style="display:flex;flex-wrap:wrap;gap:0.5em 1.2em;margin-top:0.4em;">
+  <div class="series-nav__adjacent">
     {% for chapter in site.data.perception_series %}
       {% assign previous_number = chapter_number | minus: 1 %}
       {% assign next_number = chapter_number | plus: 1 %}

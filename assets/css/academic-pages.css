@@ -215,3 +215,40 @@ html[data-theme="dark"] .academic-page {
 .academic-page .series-guide h3 a { color: var(--academic-text); text-decoration: none; }
 .academic-page .series-guide h3 a:hover { text-decoration: underline; }
 .academic-page .series-guide h3 + p { font-size: 0.8rem; color: var(--academic-muted); }
+
+/* Every article in the driving series shares the blog's academic theme. */
+.academic-article .page {
+  padding-right: 0;
+  color: var(--academic-text);
+  font: 1rem/1.6 "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+.academic-article .page__inner-wrap { max-width: 82ch; }
+.academic-article .page__title {
+  font: 700 1.65rem/1.25 Cambria, "Times New Roman", Georgia, serif;
+  margin-bottom: 0.4rem;
+}
+.academic-article .page__date { font-size: 0.78rem; color: var(--academic-muted); margin-bottom: 0.6rem; }
+.academic-article .page__date strong { font-weight: 400; }
+.academic-article .page__date i { display: none; }
+.academic-article .page__content h2 {
+  font: 700 1.25rem/1.35 Cambria, "Times New Roman", Georgia, serif;
+  margin: 1.25rem 0 0.5rem;
+  padding-bottom: 0.2rem;
+  border-color: var(--academic-rule);
+}
+.academic-article .page__content h3 { font-size: 1.08rem; margin: 1rem 0 0.4rem; }
+.academic-article .page__content p { margin-bottom: 0.75rem; }
+.academic-article .page a { color: var(--academic-link); text-underline-offset: 0.15em; }
+.academic-article .page :is(a, summary):focus-visible { outline: 2px solid var(--academic-link); outline-offset: 3px; }
+.academic-article .page__content figure { margin: 1rem 0; }
+.academic-article .page__content figure img { margin-bottom: 0.35rem; border: 1px solid var(--academic-rule); border-radius: 0; }
+.academic-article .page__content figure a:hover img { box-shadow: none; }
+.academic-article .page__content figcaption { color: var(--academic-muted); font: 0.78rem/1.45 "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+.academic-article .page__content table { font-size: 0.85rem; line-height: 1.45; margin: 0.8rem 0; }
+.academic-article .page__content :is(th, td) { padding: 0.5rem; border-color: var(--academic-rule); }
+.academic-article .page__content th { background: var(--academic-surface); color: var(--academic-text); }
+.academic-article .series-nav { border-block: 1px solid var(--academic-rule); padding: 0.55rem 0; margin: 0.7rem 0 1rem; font-size: 0.8rem; line-height: 1.45; }
+.academic-article .series-nav > a { font-weight: 600; }
+.academic-article .series-nav > span { color: var(--academic-muted); }
+.academic-article .series-nav__adjacent { display: flex; flex-wrap: wrap; gap: 0.3rem 1rem; margin-top: 0.4rem; }
+.academic-article .series-nav__adjacent a { flex: 1 1 240px; }
