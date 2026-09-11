@@ -1,96 +1,84 @@
 - number: 1
-  title: What does a car need to know at an intersection?
-  slug: 01-intersection
-  url: /autonomous-driving-perception/01-intersection/
+  title: 'Image perception: R-CNN, YOLO, and FCN'
+  slug: 01-image-detection
+  url: /autonomous-driving-perception/01-image-detection/
+  period: 2012–2017
+  part: Image and 3D representations
+  papers: R-CNN · Faster R-CNN · YOLO · RetinaNet · FCN
 - number: 2
-  title: What do cameras, lidar, and radar actually measure?
-  slug: 02-sensors
-  url: /autonomous-driving-perception/02-sensors/
+  title: 'Lidar perception: PointNet, VoxelNet, and CenterPoint'
+  slug: 02-lidar-representations
+  url: /autonomous-driving-perception/02-lidar-representations/
+  period: 2017–2021
+  part: Image and 3D representations
+  papers: PointNet · VoxelNet · SECOND · PointPillars · CenterPoint
 - number: 3
-  title: How does a neural network learn to recognize a car?
-  slug: 03-learning
-  url: /autonomous-driving-perception/03-learning/
+  title: 'Camera BEV: Lift-Splat-Shoot, BEVDepth, and BEVFormer'
+  slug: 03-camera-bev
+  url: /autonomous-driving-perception/03-camera-bev/
+  period: 2020–2023
+  part: Image and 3D representations
+  papers: Lift-Splat-Shoot · BEVDepth · BEVFormer
 - number: 4
-  title: How does a pixel become a position on the road?
-  slug: 04-geometry
-  url: /autonomous-driving-perception/04-geometry/
+  title: 'Object queries: DETR3D, PETR, and Sparse4D'
+  slug: 04-object-queries
+  url: /autonomous-driving-perception/04-object-queries/
+  period: 2020–2024
+  part: Image and 3D representations
+  papers: DETR · DETR3D · PETR · Sparse4D
 - number: 5
-  title: From recognizing a car to finding it in a picture
-  slug: 05-region-detection
-  url: /autonomous-driving-perception/05-region-detection/
+  title: 'Sensor fusion: PointPainting and BEVFusion'
+  slug: 05-sensor-fusion
+  url: /autonomous-driving-perception/05-sensor-fusion/
+  period: 2020–2023
+  part: Image and 3D representations
+  papers: PointPainting · BEVFusion · Simple-BEV
 - number: 6
-  title: Detecting objects fast enough to drive
-  slug: 06-fast-detection
-  url: /autonomous-driving-perception/06-fast-detection/
+  title: 'Scene structure: tracking, MapTR, and road topology'
+  slug: 06-tracks-and-maps
+  url: /autonomous-driving-perception/06-tracks-and-maps/
+  period: 2016–2023
+  part: Scene structure and prediction
+  papers: SORT · AB3DMOT · MapTR · OpenLane-V2
 - number: 7
-  title: Giving every pixel a meaning
-  slug: 07-segmentation
-  url: /autonomous-driving-perception/07-segmentation/
+  title: 'Occupancy and motion: SurroundOcc, Occ3D, and FIERY'
+  slug: 07-occupancy-and-flow
+  url: /autonomous-driving-perception/07-occupancy-and-flow/
+  period: 2021–2023
+  part: Scene structure and prediction
+  papers: SurroundOcc · Occ3D · FIERY · Occupancy Flow Fields
 - number: 8
-  title: Why a correct image box is not enough
-  slug: 08-why-3d
-  url: /autonomous-driving-perception/08-why-3d/
+  title: 'Motion prediction: VectorNet, LaneGCN, and MTR'
+  slug: 08-motion-prediction
+  url: /autonomous-driving-perception/08-motion-prediction/
+  period: 2020–2022
+  part: Scene structure and prediction
+  papers: VectorNet · LaneGCN · Motion Transformer
 - number: 9
-  title: How can a network read a cloud of points?
-  slug: 09-pointnet
-  url: /autonomous-driving-perception/09-pointnet/
+  title: 'Trajectory planning: search, learned costs, and ChauffeurNet'
+  slug: 09-trajectory-planning
+  url: /autonomous-driving-perception/09-trajectory-planning/
+  period: 2016–2019
+  part: Planning and evaluation
+  papers: Paden survey · Neural Motion Planner · ChauffeurNet
 - number: 10
-  title: Dividing space into voxels
-  slug: 10-voxels
-  url: /autonomous-driving-perception/10-voxels/
+  title: 'Joint perception and planning: TransFuser and UniAD'
+  slug: 10-joint-driving
+  url: /autonomous-driving-perception/10-joint-driving/
+  period: 2021–2023
+  part: Planning and evaluation
+  papers: TransFuser · UniAD
 - number: 11
-  title: Turning a point cloud into a bird’s-eye view
-  slug: 11-pillars-centers
-  url: /autonomous-driving-perception/11-pillars-centers/
+  title: 'Efficient and generative planning: VAD and DiffusionDrive'
+  slug: 11-vector-and-diffusion-planning
+  url: /autonomous-driving-perception/11-vector-and-diffusion-planning/
+  period: 2023–2025
+  part: Planning and evaluation
+  papers: VAD · DiffusionDrive
 - number: 12
-  title: Estimating three-dimensional objects with cameras
-  slug: 12-camera-3d
-  url: /autonomous-driving-perception/12-camera-3d/
-- number: 13
-  title: Building one bird’s-eye view from several cameras
-  slug: 13-lift-splat-shoot
-  url: /autonomous-driving-perception/13-lift-splat-shoot/
-- number: 14
-  title: Letting a map query the images
-  slug: 14-bevformer
-  url: /autonomous-driving-perception/14-bevformer/
-- number: 15
-  title: Combining cameras, lidar, and radar
-  slug: 15-fusion
-  url: /autonomous-driving-perception/15-fusion/
-- number: 16
-  title: Remembering what happened a moment ago
-  slug: 16-tracking
-  url: /autonomous-driving-perception/16-tracking/
-- number: 17
-  title: Drawing lanes and intersections as a local map
-  slug: 17-maps
-  url: /autonomous-driving-perception/17-maps/
-- number: 18
-  title: 'Computing only where it helps: sparse perception'
-  slug: 18-sparse-perception
-  url: /autonomous-driving-perception/18-sparse-perception/
-- number: 19
-  title: What if the obstacle has no familiar name?
-  slug: 19-occupancy
-  url: /autonomous-driving-perception/19-occupancy/
-- number: 20
-  title: Representing a world that moves
-  slug: 20-motion
-  url: /autonomous-driving-perception/20-motion/
-- number: 21
-  title: Does better perception produce better driving?
-  slug: 21-planning
-  url: /autonomous-driving-perception/21-planning/
-- number: 22
-  title: Learning beyond the labeled examples
-  slug: 22-pretraining
-  url: /autonomous-driving-perception/22-pretraining/
-- number: 23
-  title: Can a car predict how the world will change?
-  slug: 23-world-models
-  url: /autonomous-driving-perception/23-world-models/
-- number: 24
-  title: How do we know the system works?
-  slug: 24-evaluation
-  url: /autonomous-driving-perception/24-evaluation/
+  title: 'Evaluating driving: nuPlan, PDM, NAVSIM, and world models'
+  slug: 12-planning-evaluation
+  url: /autonomous-driving-perception/12-planning-evaluation/
+  period: 2021–2024
+  part: Planning and evaluation
+  papers: nuPlan · PDM · NAVSIM · GAIA-1

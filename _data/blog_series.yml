@@ -1,9 +1,10 @@
 - id: perception
-  title: How Self-Driving Cars See
-  description: A step-by-step history of deep learning for driving perception, from cameras and neural networks to 3D detection, tracking, occupancy, and evaluation.
+  title: From Perception to Planning
+  description: Key papers behind image detection, 3D perception, motion prediction, and trajectory planning. Architecture
+    explanations, comparisons, and tradeoffs.
   url: /autonomous-driving-perception/
-  start: /autonomous-driving-perception/01-intersection/
-  note: 24 chapters · About 10 minutes each · Read in order
+  start: /autonomous-driving-perception/01-image-detection/
+  note: 12 articles · About 5–6 minutes each · Organized by method
 - id: paper-notes
   title: Paper Reading Notes
   description: Notes on research papers about attacks on autonomous vehicles and camera-based tracking.

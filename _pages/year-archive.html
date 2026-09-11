@@ -32,10 +32,10 @@ redirect_from:
     <p class="blog-meta">{{ series.note }}</p>
     <p>{{ series.description }}</p>
     {% if series.url %}
-    <p class="blog-series-links"><a href="{{ series.start | relative_url }}">Start with Chapter 1</a> · <a href="{{ series.url | relative_url }}">Full series guide</a></p>
+    <p class="blog-series-links"><a href="{{ series.start | relative_url }}">Start with Article 1</a> · <a href="{{ series.url | relative_url }}">Full series guide</a></p>
     {% endif %}
     <details{% unless series.url %} open{% endunless %}>
-      <summary>{% if series.url %}Browse all {{ members.size }} chapters{% else %}Browse {{ members.size }} notes{% endif %}</summary>
+      <summary>{% if series.url %}Browse all {{ members.size }} articles{% else %}Browse {{ members.size }} notes{% endif %}</summary>
       <ol class="blog-series-list"{% unless series.url %} role="list"{% endunless %}>
         {% if series.id == 'perception' %}
           {% assign members = members | sort: 'series_number' %}
