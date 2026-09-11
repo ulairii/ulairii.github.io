@@ -1,0 +1,96 @@
+- number: 1
+  title: What does a car need to know at an intersection?
+  slug: 01-intersection
+  url: /autonomous-driving-perception/01-intersection/
+- number: 2
+  title: What do cameras, lidar, and radar actually measure?
+  slug: 02-sensors
+  url: /autonomous-driving-perception/02-sensors/
+- number: 3
+  title: How does a neural network learn to recognize a car?
+  slug: 03-learning
+  url: /autonomous-driving-perception/03-learning/
+- number: 4
+  title: How does a pixel become a position on the road?
+  slug: 04-geometry
+  url: /autonomous-driving-perception/04-geometry/
+- number: 5
+  title: From recognizing a car to finding it in a picture
+  slug: 05-region-detection
+  url: /autonomous-driving-perception/05-region-detection/
+- number: 6
+  title: Detecting objects fast enough to drive
+  slug: 06-fast-detection
+  url: /autonomous-driving-perception/06-fast-detection/
+- number: 7
+  title: Giving every pixel a meaning
+  slug: 07-segmentation
+  url: /autonomous-driving-perception/07-segmentation/
+- number: 8
+  title: Why a correct image box is not enough
+  slug: 08-why-3d
+  url: /autonomous-driving-perception/08-why-3d/
+- number: 9
+  title: How can a network read a cloud of points?
+  slug: 09-pointnet
+  url: /autonomous-driving-perception/09-pointnet/
+- number: 10
+  title: Dividing space into voxels
+  slug: 10-voxels
+  url: /autonomous-driving-perception/10-voxels/
+- number: 11
+  title: Turning a point cloud into a bird’s-eye view
+  slug: 11-pillars-centers
+  url: /autonomous-driving-perception/11-pillars-centers/
+- number: 12
+  title: Estimating three-dimensional objects with cameras
+  slug: 12-camera-3d
+  url: /autonomous-driving-perception/12-camera-3d/
+- number: 13
+  title: Building one bird’s-eye view from several cameras
+  slug: 13-lift-splat-shoot
+  url: /autonomous-driving-perception/13-lift-splat-shoot/
+- number: 14
+  title: Letting a map query the images
+  slug: 14-bevformer
+  url: /autonomous-driving-perception/14-bevformer/
+- number: 15
+  title: Combining cameras, lidar, and radar
+  slug: 15-fusion
+  url: /autonomous-driving-perception/15-fusion/
+- number: 16
+  title: Remembering what happened a moment ago
+  slug: 16-tracking
+  url: /autonomous-driving-perception/16-tracking/
+- number: 17
+  title: Drawing lanes and intersections as a local map
+  slug: 17-maps
+  url: /autonomous-driving-perception/17-maps/
+- number: 18
+  title: 'Computing only where it helps: sparse perception'
+  slug: 18-sparse-perception
+  url: /autonomous-driving-perception/18-sparse-perception/
+- number: 19
+  title: What if the obstacle has no familiar name?
+  slug: 19-occupancy
+  url: /autonomous-driving-perception/19-occupancy/
+- number: 20
+  title: Representing a world that moves
+  slug: 20-motion
+  url: /autonomous-driving-perception/20-motion/
+- number: 21
+  title: Does better perception produce better driving?
+  slug: 21-planning
+  url: /autonomous-driving-perception/21-planning/
+- number: 22
+  title: Learning beyond the labeled examples
+  slug: 22-pretraining
+  url: /autonomous-driving-perception/22-pretraining/
+- number: 23
+  title: Can a car predict how the world will change?
+  slug: 23-world-models
+  url: /autonomous-driving-perception/23-world-models/
+- number: 24
+  title: How do we know the system works?
+  slug: 24-evaluation
+  url: /autonomous-driving-perception/24-evaluation/

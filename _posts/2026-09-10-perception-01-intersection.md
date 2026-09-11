@@ -1,6 +1,8 @@
 ---
 title: "How Self-Driving Cars See — 01: What Does a Car Need to Know at an Intersection?"
 date: 2026-09-10
+series_number: 1
+read_time: false
 permalink: /autonomous-driving-perception/01-intersection/
 excerpt: "Follow one car toward a crossing to understand perception, tracking, prediction, and the information that connects them."
 tags:
@@ -10,7 +12,7 @@ tags:
   - perception series
 ---
 
-[Series contents]({{ '/autonomous-driving-perception/' | relative_url }}) · Chapter 1 of 24 · About 10 minutes, including diagrams
+{% include perception-series-nav.html %}
 
 Imagine sitting in a car approaching an intersection. A delivery truck is parked near the corner. A pedestrian stands beside it. The traffic light is green, and a cyclist is moving along the right side of the road.
 
@@ -31,7 +33,7 @@ Sensor measurements are evidence, rather than ready-made answers. A camera recor
 For our intersection, useful outputs include the truck's position and size, the pedestrian's location, the cyclist's motion, the lane boundaries, and the state of the relevant traffic light. These outputs need to share a meaningful coordinate system. “A pedestrian is at pixel 420” does not directly tell the car how much room it has to stop.
 
 <figure>
-  <img src="{{ '/images/perception-series/intersection.svg' | relative_url }}" alt="Top view of a car approaching a crossing, with a parked truck beside the road, a pedestrian beyond the truck, and a cyclist to the right. A shaded area beyond the truck marks space the car cannot directly observe." loading="lazy">
+  <a href="{{ '/images/perception-series/intersection.svg' | relative_url }}" aria-label="Open diagram at full size" style="width:100%;"><img src="{{ '/images/perception-series/intersection.svg' | relative_url }}" alt="Top view of a car approaching a crossing, with a parked truck beside the road, a pedestrian beyond the truck, and a cyclist to the right. A shaded area beyond the truck marks space the car cannot directly observe." width="720" height="625" style="height:auto;" loading="lazy"></a>
   <figcaption>A simplified intersection. The shaded region is hidden from the approaching car by the truck. Object positions are illustrative; the drawing is not to scale.</figcaption>
 </figure>
 
@@ -70,7 +72,7 @@ The distinction matters because the future is not directly measured. The system 
 **Control** then turns the chosen motion into steering, braking, and acceleration commands. As new measurements arrive, the process repeats. The chosen plan must be updated because people move, observations change, and the car does not follow every command perfectly.
 
 <figure>
-  <img src="{{ '/images/perception-series/driving-tasks.svg' | relative_url }}" alt="Sensor measurements feed perception and tracking, which describe the current scene. Prediction estimates possible future motion. Planning selects the car's motion, and control produces steering and braking commands. Position, road layout, and route also inform the process." loading="lazy">
+  <a href="{{ '/images/perception-series/driving-tasks.svg' | relative_url }}" aria-label="Open diagram at full size" style="width:100%;"><img src="{{ '/images/perception-series/driving-tasks.svg' | relative_url }}" alt="Sensor measurements feed perception and tracking, which describe the current scene. Prediction estimates possible future motion. Planning selects the car's motion, and control produces steering and braking commands. Position, road layout, and route also inform the process." width="690" height="635" style="height:auto;" loading="lazy"></a>
   <figcaption>A teaching diagram of the main tasks. Real systems may share a network across tasks, exchange additional information, or organize these computations differently.</figcaption>
 </figure>
 
@@ -122,4 +124,4 @@ In Chapter 2, we will look at the evidence available to answer these questions: 
 
 All diagrams in this chapter were created for this series. The linked papers and dataset documentation provide further reading; no prior knowledge of them is required.
 
-[Back to the series contents]({{ '/autonomous-driving-perception/' | relative_url }}) · Next: Cameras, lidar, and radar — coming next
+{% include perception-series-nav.html %}

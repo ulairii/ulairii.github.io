@@ -1,0 +1,13 @@
+{% assign chapter_number = page.series_number | default: 1 | plus: 0 %}
+<nav aria-label="Perception series chapters" style="border-block: 1px solid #94a3b8; padding: 1em 0; margin: 1.5em 0; font-size: 0.85em;">
+  <a href="{{ '/autonomous-driving-perception/' | relative_url }}">All 24 chapters</a>
+  <span> · Chapter {{ chapter_number }} of 24 · About 10 minutes, including diagrams</span>
+  <div style="display:flex;flex-wrap:wrap;gap:0.8em 1.5em;margin-top:0.5em;">
+    {% for chapter in site.data.perception_series %}
+      {% assign previous_number = chapter_number | minus: 1 %}
+      {% assign next_number = chapter_number | plus: 1 %}
+      {% if chapter.number == previous_number %}<a rel="prev" href="{{ chapter.url | relative_url }}">← {{ chapter.number }}. {{ chapter.title }}</a>{% endif %}
+      {% if chapter.number == next_number %}<a rel="next" href="{{ chapter.url | relative_url }}">{{ chapter.number }}. {{ chapter.title }} →</a>{% endif %}
+    {% endfor %}
+  </div>
+</nav>
