@@ -1,0 +1,170 @@
+/* Publications, blog index and CV only. Match the homepage's typography. */
+.academic-page {
+  --academic-text: #24292e;
+  --academic-muted: #555e67;
+  --academic-link: #294f73;
+  --academic-rule: #d6dce3;
+  --academic-surface: #f4f5f6;
+}
+html[data-theme="dark"] .academic-page {
+  --academic-text: #ededed;
+  --academic-muted: #c5c9cc;
+  --academic-link: #b5cee4;
+  --academic-rule: #73787d;
+  --academic-surface: #3c3c3c;
+}
+.academic-page .archive {
+  max-width: none;
+  color: var(--academic-text);
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+.academic-page .archive h1,
+.academic-page .archive h2 {
+  font-family: Cambria, "Times New Roman", Georgia, serif;
+  color: var(--academic-text);
+  letter-spacing: normal;
+}
+.academic-page .archive .page__title,
+.academic-page .cv-header h1 {
+  margin: 0 0 0.65rem;
+  font-size: 1.45rem;
+  line-height: 1.2;
+}
+.academic-page .archive a { color: var(--academic-link); text-underline-offset: 0.15em; }
+.academic-page .archive a:hover { text-decoration: underline; }
+.academic-page .archive :is(a, button, summary):focus-visible {
+  outline: 2px solid var(--academic-link);
+  outline-offset: 3px;
+}
+.academic-page .archive .wordwrap { white-space: normal; }
+.academic-page .archive p { margin: 0 0 0.55rem; }
+.academic-page .archive button { font-family: inherit; }
+
+/* Small, neutral topic controls; selected topics retain a visible border. */
+.academic-page .pub-filter-container,
+.academic-page #blog-filter-ui { margin: 0.8rem 0 0.65rem; }
+.academic-page .tags-label {
+  display: block;
+  margin: 0 0 0.2rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--academic-muted);
+}
+.academic-page .tag-container { display: flex; flex-wrap: wrap; gap: 0.2rem 0.35rem; margin-bottom: 0.4rem; }
+.academic-page .tag-chip {
+  padding: 0.15rem 0.4rem;
+  border: 1px solid var(--academic-rule);
+  border-radius: 2px;
+  background: transparent;
+  color: var(--academic-muted);
+  font-size: 0.76rem;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.academic-page .tag-chip:hover { background: var(--academic-surface); color: var(--academic-text); }
+.academic-page .tag-selected { border-color: var(--academic-muted); color: var(--academic-text); font-weight: 600; }
+.academic-page .tag-remove-icon { margin-left: 0.3rem; }
+
+/* Papers are a bibliography, with plain venue labels and text actions. */
+.academic-page .publications-container { padding: 0; margin: 0; }
+.academic-page .publication-item { padding: 0.7rem 0; border-bottom: 1px solid var(--academic-rule); }
+.academic-page .publication-header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.15rem 0.5rem; }
+.academic-page .publication-content { flex: 1 1 75%; min-width: 0; }
+.academic-page .publication-title { font: 600 0.95rem/1.4 "Segoe UI", "Helvetica Neue", Arial, sans-serif; margin: 0 0 0.15rem; }
+.academic-page .publication-title a { color: var(--academic-text); text-decoration: none; }
+.academic-page .publication-venue-badge { font-size: 0.76rem; font-weight: 600; color: var(--academic-muted); }
+.academic-page .publication-featured { display: none; }
+.academic-page .publication-authors { font-size: 0.85rem; }
+.academic-page .publication-venue { font-size: 0.81rem; color: var(--academic-muted); }
+.academic-page .publication-abstract { margin-top: 0.2rem; font-size: 0.83rem; }
+.academic-page .publication-abstract summary { width: fit-content; cursor: pointer; color: var(--academic-link); }
+.academic-page .publication-abstract p { margin: 0.4rem 0; line-height: 1.55; }
+.academic-page .publication-links { display: flex; flex-wrap: wrap; gap: 0.15rem 0.7rem; margin-top: 0.2rem; }
+.academic-page .pub-link {
+  display: inline;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--academic-link);
+  font-size: 0.8rem;
+  line-height: 1.6;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  cursor: pointer;
+}
+.academic-page .pub-link i { display: none; }
+.academic-page .publication-bibtex { min-width: 0; margin-top: 0.4rem; }
+.academic-page .publication-bibtex pre { padding: 0.65rem; background: var(--academic-surface); color: var(--academic-text); font-size: 0.72rem; }
+
+/* Compact blog entries, with full titles and excerpts on narrow screens. */
+.academic-page #posts-list .list__item { padding-right: 0; }
+.academic-page .archive__subtitle { margin: 1rem 0 0; padding-bottom: 0.2rem; font-size: 1.05rem; border-color: var(--academic-rule); }
+.academic-page .post-item-wrapper { padding: 0.6rem 0; border-bottom: 1px solid var(--academic-rule); }
+.academic-page .archive .archive__item-title { font: 600 0.96rem/1.4 "Segoe UI", "Helvetica Neue", Arial, sans-serif; margin: 0 0 0.2rem; }
+.academic-page .archive__item-title a { color: var(--academic-text); text-decoration: none; }
+.academic-page .archive :is(.page__date, .page__meta) { display: inline-block; margin: 0 0.65rem 0.2rem 0; color: var(--academic-muted); font-size: 0.75rem; }
+.academic-page .page__date strong { font-weight: 400; }
+.academic-page .page__date i,
+.academic-page .page__meta i { display: none; }
+.academic-page .archive__item-excerpt,
+.academic-page .archive__item > p { font-size: 0.85rem; }
+.academic-page .archive__item > p:last-child { margin-bottom: 0; }
+
+/* CV: a continuous document, with aligned dates and restrained section rules. */
+.academic-page .cv-container { padding: 0; }
+.academic-page .cv-header { margin-bottom: 0.9rem; }
+.academic-page .cv-header h2 { border: 0; margin: 0 0 0.4rem; font: 400 0.92rem/1.4 "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+.academic-page .cv-contact,
+.academic-page .cv-profiles { display: flex; flex-wrap: wrap; gap: 0.15rem 0.85rem; font-size: 0.82rem; margin-bottom: 0.25rem; }
+.academic-page .cv-contact-item { overflow-wrap: anywhere; }
+.academic-page .cv-contact i,
+.academic-page .cv-profiles i,
+.academic-page .cv-download-header i,
+.academic-page .cv-download-footer i { display: none; }
+.academic-page .cv-section { margin-bottom: 0.85rem; }
+.academic-page .cv-section > h2 { font-size: 1.05rem; margin: 0.8rem 0 0.35rem; padding-bottom: 0.15rem; border-bottom: 1px solid var(--academic-rule); }
+.academic-page .cv-header > h2 { font-size: 0.92rem; margin-top: 0; border: 0; }
+.academic-page .cv-list { list-style: none; padding: 0; margin: 0; }
+.academic-page .cv-item { margin: 0 0 0.6rem; }
+.academic-page .cv-item-header { display: flex; justify-content: space-between; align-items: baseline; gap: 0.25rem 1rem; }
+.academic-page .cv-item-title { font-size: 0.92rem; font-weight: 600; }
+.academic-page .cv-item-date { flex-shrink: 0; color: var(--academic-muted); font-size: 0.8rem; }
+.academic-page .cv-item-subtitle,
+.academic-page .cv-item-detail { font-size: 0.85rem; }
+.academic-page .cv-highlights { margin: 0.15rem 0 0; padding-left: 1.2rem; font-size: 0.85rem; }
+.academic-page .cv-highlights li { margin: 0.1rem 0; }
+.academic-page .cv-skills { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.4rem 1rem; }
+.academic-page .cv-skill-category h3 { margin: 0 0 0.15rem; font-size: 0.9rem; }
+.academic-page .cv-skill-list { display: flex; flex-wrap: wrap; list-style: none; padding: 0; margin: 0; gap: 0 0.35rem; font-size: 0.85rem; }
+.academic-page .cv-skill-list li:not(:last-child)::after { content: ","; }
+.academic-page .cv-download-header { margin-top: 0.35rem; font-size: 0.83rem; }
+.academic-page .cv-download-footer { margin-top: 1rem; padding-top: 0.5rem; border-top: 1px solid var(--academic-rule); }
+.academic-page .cv-download-links .btn { padding: 0; border: 0; border-radius: 0; background: none; color: var(--academic-link); font: inherit; font-size: 0.83rem; text-decoration: underline; }
+.academic-page .cv-last-updated { margin-top: 0.2rem; color: var(--academic-muted); font-size: 0.75rem; }
+@media (max-width: 640px) {
+  .academic-page .archive { font-size: 1rem; }
+  .academic-page .publication-header { display: block; }
+  .academic-page .publication-venue-badge { margin-bottom: 0.1rem; }
+  .academic-page .cv-item-header { flex-direction: column; gap: 0; }
+  .academic-page .cv-skills { grid-template-columns: 1fr; }
+}
+@media print {
+  .academic-page :is(.pub-filter-container, #blog-filter-ui, .publication-links, .cv-download-header, .cv-download-footer) { display: none; }
+  .academic-page :is(.publication-item, .cv-item) { break-inside: avoid; }
+}
+/* Keep the existing chat entry understated alongside the document. */
+.academic-page #ai-chat-launcher {
+  background: var(--academic-surface) !important;
+  color: var(--academic-text) !important;
+  border: 1px solid var(--academic-rule);
+  border-radius: 3px !important;
+  box-shadow: none !important;
+  padding: 7px 11px !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  transform: none !important;
+}
+.academic-page #ai-chat-launcher svg { width: 17px; height: 17px; }
+.academic-page #ai-chat-launcher svg path { fill: currentColor; }

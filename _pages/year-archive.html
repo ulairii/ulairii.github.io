@@ -3,6 +3,7 @@ layout: archive
 permalink: /year-archive/
 title: "Blog posts"
 author_profile: true
+academic_style: true
 redirect_from:
 - /wordpress/blog-posts/
 - /tags/
@@ -11,68 +12,7 @@ redirect_from:
 {% include base_path %}
 {% include group-by-array collection=site.posts field="tags" %}
 
-<style>
-  .tag-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-bottom: 25px;
-  }
 
-  .tag-chip {
-    padding: 6px 12px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 0.85em;
-    user-select: none;
-    transition: all 0.2s;
-    border: none;
-    text-decoration: none;
-    font-family: sans-serif;
-  }
-
-  /* Available Tags */
-  .tag-avail {
-    background-color: #f1f3f5;
-    color: #495057;
-    border: 1px solid #dee2e6;
-  }
-
-  .tag-avail:hover {
-    background-color: #e9ecef;
-    border-color: #ced4da;
-  }
-
-  /* Selected Tags */
-  .tag-selected {
-    background-color: #228be6;
-    color: white;
-    display: flex;
-    align-items: center;
-    border: 1px solid #1c7cd6;
-  }
-
-  .tag-selected:hover {
-    background-color: #1c7cd6;
-  }
-
-  .tag-remove-icon {
-    margin-left: 8px;
-    font-weight: bold;
-    font-size: 1.1em;
-    line-height: 0.8;
-  }
-
-  .tags-label {
-    font-weight: bold;
-    margin-bottom: 8px;
-    display: block;
-    font-size: 0.85em;
-    color: #868e96;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-  }
-</style>
 
 <!-- Filter UI -->
 <div id="blog-filter-ui">

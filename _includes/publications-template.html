@@ -11,6 +11,7 @@
 {% endfor %}
 {% assign unique_pub_tags = all_pub_tags | uniq | sort %}
 
+{% unless page.academic_style %}
 <style>
   /* Filter Styles */
   .pub-filter-container {
@@ -113,6 +114,7 @@
     letter-spacing: 0.5px;
   }
 </style>
+{% endunless %}
 
 <!-- Filter UI -->
 {% if unique_pub_tags.size > 0 %}
@@ -165,7 +167,7 @@
       {% endif %}
       <div class="publication-content">
         <h3 class="publication-title">
-          {% if pub.url %}
+          {% if pub.url and pub.url != empty %}
           <a href="{{ pub.url }}" target="_blank">{{ pub.title }}</a>
           {% else %}
           {{ pub.title }}
@@ -181,7 +183,7 @@
 
     <div class="publication-venue">
       <em>{{ pub.venue }}</em><span class="publication-year">, {{ pub.year }}</span>
-      {% if pub.acceptance_rate %}<br><span class="publication-acceptance-rate">Acceptance Rate: {{ pub.acceptance_rate
+      {% if pub.acceptance_rate and pub.acceptance_rate != empty %}<br><span class="publication-acceptance-rate">Acceptance Rate: {{ pub.acceptance_rate
         }}</span>{% endif %}
     </div>
 
@@ -195,22 +197,22 @@
     {% endif %}
 
     <div class="publication-links">
-      {% if pub.url %}
+      {% if pub.url and pub.url != empty %}
       <a href="{{ pub.url }}" target="_blank" class="pub-link pub-link-paper">
         <i class="fas fa-external-link-alt"></i> Paper
       </a>
       {% endif %}
-      {% if pub.pdf_url %}
+      {% if pub.pdf_url and pub.pdf_url != empty %}
       <a href="{{ pub.pdf_url }}" target="_blank" class="pub-link pub-link-pdf">
         <i class="fas fa-file-pdf"></i> PDF
       </a>
       {% endif %}
-      {% if pub.slides_url %}
+      {% if pub.slides_url and pub.slides_url != empty %}
       <a href="{{ pub.slides_url }}" target="_blank" class="pub-link pub-link-slides">
         <i class="fas fa-presentation"></i> Slides
       </a>
       {% endif %}
-      {% if pub.code_url %}
+      {% if pub.code_url and pub.code_url != empty %}
       <a href="{{ pub.code_url }}" target="_blank" class="pub-link pub-link-code">
         <i class="fas fa-code"></i> Code
       </a>
@@ -234,7 +236,7 @@
   address = {{ open_brace }}{{ pub.address }}{{ close_brace }}{% endif %}{% if pub.volume %},
   volume = {{ open_brace }}{{ pub.volume }}{{ close_brace }}{% endif %}{% if pub.pages %},
   pages = {{ open_brace }}{{ pub.pages }}{{ close_brace }}{% endif %}{% if pub.doi %},
-  doi = {{ open_brace }}{{ pub.doi }}{{ close_brace }}{% endif %}{% if pub.url %},
+  doi = {{ open_brace }}{{ pub.doi }}{{ close_brace }}{% endif %}{% if pub.url and pub.url != empty %},
   url = {{ open_brace }}{{ pub.url }}{{ close_brace }}{% endif %}
 {{ close_brace }}</code></pre>
     </div>

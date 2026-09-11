@@ -15,12 +15,14 @@ layout: compress
     default: site.title }}</title>
   {% include head.html %}
   {% include head/custom.html %}
+  {% unless page.academic_style %}
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/common-styles.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/cv-layout.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/dark-mode.css">
+  {% endunless %}
 </head>
 
-<body class="cv-layout">
+<body class="cv-layout{% if page.academic_style %} academic-page{% endif %}">
   {% include browser-upgrade.html %}
   {% include masthead.html %}
 
