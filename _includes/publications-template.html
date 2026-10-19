@@ -182,7 +182,7 @@
     <div class="publication-authors">{{ pub.authors }}</div>
 
     <div class="publication-venue">
-      <em>{{ pub.venue }}</em>{% if pub.year != empty %}<span class="publication-year">, {{ pub.year }}</span>{% endif %}
+      <em>{{ pub.venue }}</em><span class="publication-year">, {{ pub.year }}</span>
       {% if pub.acceptance_rate and pub.acceptance_rate != empty %}<br><span class="publication-acceptance-rate">Acceptance Rate: {{ pub.acceptance_rate
         }}</span>{% endif %}
     </div>
@@ -217,14 +217,14 @@
         <i class="fas fa-code"></i> Code
       </a>
       {% endif %}
-      {% if include.show_bibtex and pub.status != "under_review" %}
+      {% if include.show_bibtex %}
       <button class="pub-link pub-link-bibtex" onclick="toggleBibtex('{{ pub.id }}')">
         <i class="fas fa-quote-right"></i> BibTeX
       </button>
       {% endif %}
     </div>
 
-    {% if include.show_bibtex and pub.status != "under_review" %}
+    {% if include.show_bibtex %}
     <div class="publication-bibtex" id="bibtex-{{ pub.id }}" style="display: none;">
       {% assign open_brace = "{" %}
       {% assign close_brace = "}" %}
