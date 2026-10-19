@@ -166,6 +166,20 @@
   color: #374151;
 }
 
+/* Homepage dark theme: the rules above hardcode light-theme colors. */
+html[data-theme="dark"] {
+  .academic-home { color: #ededed; }
+  .academic-home h2 { border-bottom-color: #73787d; }
+  .academic-home .conference-highlight {
+    color: #b5dcf2;
+    background: rgba(14, 161, 197, 0.22);
+  }
+  .academic-edu__item { border-bottom-color: #5a5f64; }
+  .academic-edu__place,
+  .academic-edu__detail { color: #c5c9cc; }
+  .academic-edu__place::before { color: #8a9096; }
+}
+
 @media (min-width: 900px) {
   .academic-home {
     font-size: 0.9rem;
