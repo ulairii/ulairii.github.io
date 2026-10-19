@@ -1,64 +1,97 @@
-RUN WANG
-Clemson, SC | +1 (518) 961-8733 | runw@clemson.edu | ulairii.github.io
+                                            Run Wang
+                       runw@clemson.edu | +1 (518) 961–8733 | Clemson, SC | Github | LinkedIn
 
-SUMMARY
-Ph.D. student in Computer Science (3D computer vision, trustworthy AI, autonomous driving) with research and industry
-experience spanning deep learning, mobile/edge performance optimization, and full-stack development.
+Summary
+Computer Science Ph.D. student specializing in 3D computer vision, AI security, and mobile/edge computing, with
+experience spanning research, ML systems, and production software engineering. Published/accepted work in CVPR, IEEE
+INFOCOM, and IEEE/ACM IWQoS.
 
-EDUCATION
-Clemson University, Clemson, SC
-  Ph.D. in Computer Science, Aug 2025 � Present
-Carnegie Mellon University, Pittsburgh, PA
-  M.S. in Electrical and Computer Engineering (Applied Advanced Program), Sep 2021 � May 2023
-Rensselaer Polytechnic Institute, Troy, NY
-  B.S. in Computer & Systems Engineering, Sep 2017 � May 2021
+Skills
+  Programming: C, C++, C#, Python (PyTorch), Java
+  Cloud / DevOps: Docker, Kubernetes, Terraform
+  Research Areas: 3D Computer Vision, AI Security, Autonomous Driving, Mobile Computing
 
-TECHNICAL SKILLS
-Programming: C, C++, C#, Python (PyTorch), Java
-Tools/Frameworks: Docker, Kubernetes, Terraform, Hugging Face
-Research Areas: Deep Learning, 3D Computer Vision, AI Security, Autonomous Driving
+Education
+  Clemson University                                                                                    Clemson, SC
+  Ph.D. Student in Computer Science                                                              Aug. 2025 – Present
+    – Concentration: 3D Computer Vision, AI Security and Mobile Computing
+  Carnegie Mellon University                                                                         Pittsburgh, PA
+  M.S. in Electrical and Computer Engineering (Applied Advanced Program)                        Sep. 2021 – May 2023
+  Rensselaer Polytechnic Institute                                                                         Troy, NY
+  B.S. in Computer & Systems Engineering                                                        Sep. 2017 – May 2021
 
-PUBLICATIONS (SELECTED)
-- �FlexMap: Generalized HD Map Construction from Flexible Camera Configurations.� Submitted.
-- �Design Diagnosis Using LLMs: A Case Study of Recreational Fishing Choice Experiments.� Submitted.
-- �FF3R: Feedforward Feature 3D Reconstruction from Unconstrained Views.� Submitted.
-- �Lightweight Detection of Abnormal Battery Drain Induced by Network Operations of Mobile Apps.� IEEE INFOCOM 2026.
-- �MAPP: Predictive UI View Pre-caching for Improving the Responsiveness of Mobile Apps.� IEEE/ACM IWQoS 2025.
-- �Component Segmentation of Engineering Drawings Using Graph Convolutional Networks.� Computers in Industry, 2023.
-  (Acknowledged Contributor)
+Publications and Preprints
+  R. Wang et al., “FlexMap: Generalized HD Map Construction from Flexible Camera Configurations”
+  arXiv Preprint, 2026.
+  C. Zhou, R. Wang et al., “FF3R: Feedforward Feature 3D Reconstruction from Unconstrained Views”
+  CVPR, 2026.
+  Q. Yang, C. Zhou, X. Liu, R. Wang et al., “Sat3R: Satellite DSM Reconstruction via RPC-Aware Depth Fine-tuning”
+  CVPRW, 2026.
+  R. Wang et al., “Lightweight Detection of Abnormal Battery Drain Induced by Network Operations of Mobile Apps”
+  IEEE INFOCOM, 2026. Acceptance Rate: 329/1740 (18.91%)
+  R. Wang et al., “MAPP: Predictive UI View Pre-caching for Improving the Responsiveness of Mobile Apps”
+  IEEE/ACM IWQoS, 2025. Acceptance Rate: 81/326 (24.8%)
+  Z. Wang, M. Kim, R. Wang et al., “LLM Agents for Simulating Human Stated-Choice Behavior”
+  ICMLA, 2026.
 
-RESEARCH EXPERIENCE
-Clemson University, Clemson, SC � Graduate Research Assistant (Aug 2025 � Present)
-- Conducting research on 3D computer vision and trustworthy AI for autonomous driving systems.
-- Supervisors: Dr. Siyu Huang, Dr. Mert D. Pes�
+  Manuscripts currently under review
 
-The Ohio State University, Columbus, OH � Graduate Research Associate (May 2024 � Aug 2025)
-- Designed machine learning models and time-series algorithms for mobile and edge performance optimization.
-- Contributed to papers accepted by IEEE/ACM IWQoS 2025 and IEEE INFOCOM 2026.
-- Supervisor: Prof. Xiaorui Wang
+  R. Wang et al., “Adversarial Prompts for Acceptance Collapse in Speculative Decoding”
+  X. Liu, C. Zhou, R. Wang et al., “Lang-SVG: Hierarchical Image Vectorization with Language Priors”
+  Y. Liu, R. Wang et al., “Who Touched the Screen? Driver-Passenger Identification in In-Vehicle Infotainment (IVI)
+  Systems”
+  P. MohajerAnsari, A. Salarpour, R. Wang et al., “GATE: Reliability-Gated Gaussian Evidence Fusion for Training-Free
+  Test-Time Adaptation of Vision-Language Models”
+Research Experience
+ Graduate Research Assistant                                                                      Aug. 2025 – Present
+ Clemson University                                                                                     Clemson, SC
+    – Supervisors: Dr. Siyu Huang and Dr. Mert D. Pesé
+    – Ongoing Project: Researching AI security and robustness of autonomous-driving systems, focusing on adversarial
+      vulnerabilities in perception and decision-making pipelines.
+ Graduate Research Associate                                                                    May 2024 – Aug. 2025
+ The Ohio State University                                                                         Columbus, OH
+   – Supervisor: Prof. Xiaorui Wang
+   – Designed ML and time-series models for mobile/edge performance optimization, producing two peer-reviewed
+     papers accepted to IEEE/ACM IWQoS 2025 and IEEE INFOCOM 2026.
+ Research Assistant                                                                             May 2022 – May 2023
+ CERLAB, Carnegie Mellon University                                                                 Pittsburgh, PA
+   – Supervisors: Prof. Kenji Shimada and Dr. Wentai Zhang
+   – Adapted PSPNet, DeepLabV3+, and SketchGNN for component extraction from engineering drawings, achieving
+     84% overall accuracy on in-house dataset. (acknowledged by this paper: Component segmentation of engineering
+     drawings using Graph Convolutional Networks)
+ Research Assistant                                                                             Jan. 2022 – May 2022
+ CyLab, Carnegie Mellon University                                                                     Pittsburgh, PA
+   – Supervisor: Dr. Cai Yang
+   – Collected and dynamically traced 80+ Linux malware samples, extracting 14 system-level behavioral features for
+     malware behavior analysis.
+   – Built an in-house behavioral dataset from runtime traces to support downstream malware classification and
+     anomaly detection experiments.
+ Research Assistant                                                                             Jan. 2020 – Dec. 2020
+ RPI–IBM Cognitive and Immersive Systems Lab                                                                Troy, NY
+   – Supervisors: Dr. Jeff Kephart and Dr. Xiangyang Mou
+   – Built real-time gesture recognition system in C# and Python using Intel RealSense cameras, collecting 600+
+     gesture samples and extracting skeletal motion features for recognition experiments.
 
-Carnegie Mellon University (CERLAB), Pittsburgh, PA � Research Assistant (May 2022 � May 2023)
-- Developed deep learning methods for component extraction from engineering drawings.
-- Adapted PSPNet, DeepLabV3+, and SketchGNN; achieved 84% overall accuracy.
-- Supervisors: Prof. Kenji Shimada, Dr. Wentai Zhang
+Industry Experience
+ Application Developer – Full Stack                                                             May 2023 – Apr. 2024
+ Computer Packages Inc.                                                                             Rockville, MD
+   – Developed and maintained C#/.NET, JavaScript, and SQL Server features for legacy-to-modern application
+     migration, preserving data integrity across production workflows.
+   – Optimized SQL Server query performance using stored procedures, indexing, and execution-plan analysis, reducing
+     query latency by > 50%.
 
-Carnegie Mellon University (CyLab), Pittsburgh, PA � Research Assistant (Jan 2022 � May 2022)
-- Collected and analyzed 80+ Linux-based malware samples via dynamic system-level tracing.
-- Built an in-house behavioral dataset with 14 discriminative features.
-- Supervisor: Dr. Cai Yang
-
-RPI�IBM Cognitive and Immersive Systems Lab, Troy, NY � Research Assistant (Jan 2020 � Dec 2020)
-- Implemented a real-time gesture recognition system using C# and Python with Intel RealSense cameras.
-- Collected 600+ gesture samples and extracted skeletal motion features.
-- Supervisors: Dr. Jeff Kephart, Dr. Xiangyang Mou
-
-INDUSTRY EXPERIENCE
-Computer Packages Inc., Rockville, MD � Application Developer (Full Stack) (May 2023 � Apr 2024)
-- Supported migration from legacy systems to modern architectures while ensuring data integrity.
-- Optimized SQL Server queries using stored procedures and execution plan tuning.
-
-PROJECTS
-User Recommendation Microservice (Aug 2022 � Dec 2022)
-Tech: AWS, Kubernetes, Spark, FastAPI, Vert.x
-- Built Spark-based ETL pipelines to preprocess ~1TB Twitter dataset on GCP Dataproc.
-- Orchestrated AWS infrastructure; achieved ~10,000 RPS within a ~$0.7/hour budget.
+Project Experience
+ Cosmospapers Research Assistant Platform                                                          Jan. 2026 – Present
+ Demo - Github
+   – Built RAG-based research discovery platform indexing 54,000+ papers from 15+ top CS conferences with
+     vectorized retrieval and interactive topic exploration.
+   – Extracted 150 hierarchical research topics and visualized topic relationships to help users explore papers by
+     research area.
+   – Shipped public demo and GitHub repository, attracting 23 stars.
+ User Recommendation Microservice                                                              Aug. 2022 – Dec. 2022
+ GCP, Kubernetes, Spark, FastAPI, Vert.x
+   – Built Spark ETL pipelines on GCP Dataproc to preprocess ≈ 1T B Twitter dataset for recommendation-system
+     experiments.
+   – Deployed cloud-native recommendation microservices using Kubernetes, FastAPI, and Vert.x, achieving 10,000 RPS
+     within a $0.70/hour infrastructure budget.
+
