@@ -56,9 +56,16 @@
             "slides_url": "",
             "code_url": "",
             "bibtex_key": "yang2026sat3r",
-            "tags": ["3d computer vision", "satellite imagery", "reconstruction"],
+            "tags": [
+                "3d computer vision",
+                "satellite imagery",
+                "reconstruction"
+            ],
             "abstract": "",
-            "keywords": ["satellite DSM reconstruction", "RPC-aware depth fine-tuning"],
+            "keywords": [
+                "satellite DSM reconstruction",
+                "RPC-aware depth fine-tuning"
+            ],
             "featured": true,
             "award": "",
             "note": "Published",
@@ -206,14 +213,156 @@
             "slides_url": "",
             "code_url": "",
             "bibtex_key": "wang2026llmagents",
-            "tags": ["large language models", "agent simulation"],
+            "tags": [
+                "large language models",
+                "agent simulation"
+            ],
             "abstract": "",
-            "keywords": ["LLM agents", "stated-choice behavior"],
+            "keywords": [
+                "LLM agents",
+                "stated-choice behavior"
+            ],
             "featured": false,
             "award": "",
             "note": "Accepted",
             "acceptance_rate": "",
             "citation": ""
+        },
+        {
+            "id": "specdec-acceptance-collapse",
+            "title": "Adversarial Prompts for Acceptance Collapse in Speculative Decoding",
+            "authors": "Run Wang, et al.",
+            "venue": "Manuscript under review",
+            "venue_short": "Under review",
+            "proceedings": "",
+            "date": "2026-01-01",
+            "year": "",
+            "month": "",
+            "type": "preprint",
+            "status": "under_review",
+            "url": "",
+            "doi": "",
+            "address": "",
+            "pages": "",
+            "pdf_url": "",
+            "slides_url": "",
+            "code_url": "",
+            "abstract": "",
+            "featured": false,
+            "award": "",
+            "note": "Under review",
+            "acceptance_rate": "",
+            "citation": "",
+            "bibtex_key": "specdec-acceptance-collapse",
+            "tags": [
+                "large language models"
+            ],
+            "keywords": [
+                "speculative decoding",
+                "adversarial prompts"
+            ]
+        },
+        {
+            "id": "lang-svg",
+            "title": "Lang-SVG: Hierarchical Image Vectorization with Language Priors",
+            "authors": "X. Liu, C. Zhou, Run Wang, et al.",
+            "venue": "Manuscript under review",
+            "venue_short": "Under review",
+            "proceedings": "",
+            "date": "2026-01-01",
+            "year": "",
+            "month": "",
+            "type": "preprint",
+            "status": "under_review",
+            "url": "",
+            "doi": "",
+            "address": "",
+            "pages": "",
+            "pdf_url": "",
+            "slides_url": "",
+            "code_url": "",
+            "abstract": "",
+            "featured": false,
+            "award": "",
+            "note": "Under review",
+            "acceptance_rate": "",
+            "citation": "",
+            "bibtex_key": "lang-svg",
+            "tags": [
+                "computer vision"
+            ],
+            "keywords": [
+                "image vectorization",
+                "language priors"
+            ]
+        },
+        {
+            "id": "who-touched-the-screen",
+            "title": "Who Touched the Screen? Driver-Passenger Identification in In-Vehicle Infotainment (IVI) Systems",
+            "authors": "Y. Liu, Run Wang, et al.",
+            "venue": "Manuscript under review",
+            "venue_short": "Under review",
+            "proceedings": "",
+            "date": "2026-01-01",
+            "year": "",
+            "month": "",
+            "type": "preprint",
+            "status": "under_review",
+            "url": "",
+            "doi": "",
+            "address": "",
+            "pages": "",
+            "pdf_url": "",
+            "slides_url": "",
+            "code_url": "",
+            "abstract": "",
+            "featured": false,
+            "award": "",
+            "note": "Under review",
+            "acceptance_rate": "",
+            "citation": "",
+            "bibtex_key": "who-touched-the-screen",
+            "tags": [
+                "mobile computing"
+            ],
+            "keywords": [
+                "infotainment",
+                "driver identification"
+            ]
+        },
+        {
+            "id": "gate",
+            "title": "GATE: Reliability-Gated Gaussian Evidence Fusion for Training-Free Test-Time Adaptation of Vision-Language Models",
+            "authors": "P. MohajerAnsari, A. Salarpour, Run Wang, et al.",
+            "venue": "Manuscript under review",
+            "venue_short": "Under review",
+            "proceedings": "",
+            "date": "2026-01-01",
+            "year": "",
+            "month": "",
+            "type": "preprint",
+            "status": "under_review",
+            "url": "",
+            "doi": "",
+            "address": "",
+            "pages": "",
+            "pdf_url": "",
+            "slides_url": "",
+            "code_url": "",
+            "abstract": "",
+            "featured": false,
+            "award": "",
+            "note": "Under review",
+            "acceptance_rate": "",
+            "citation": "",
+            "bibtex_key": "gate",
+            "tags": [
+                "computer vision"
+            ],
+            "keywords": [
+                "test-time adaptation",
+                "vision-language models"
+            ]
         }
     ]
 }

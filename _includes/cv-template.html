@@ -91,21 +91,6 @@
   </div>
   {% endif %}
   
-  {% if cv.publications.size > 0 %}
-  <!-- Publications -->
-  <div class="cv-section">
-    <h2>Publications and Preprints</h2>
-    <ul class="cv-list">
-      {% for pub in cv.publications %}
-      <li class="cv-item">
-        <div class="cv-item-title">{{ pub.title }}</div>
-        <div class="cv-item-detail">{{ pub.authors }} &middot; {{ pub.venue }}</div>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-  {% endif %}
-
   {% if cv.work.size > 0 %}
   <!-- Work Experience -->
   <div class="cv-section">

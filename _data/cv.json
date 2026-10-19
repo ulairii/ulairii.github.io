@@ -195,37 +195,5 @@
       "url": ""
     }
   ],
-  "teaching": [],
-  "publications": [
-    {
-      "title": "FlexMap: Generalized HD Map Construction from Flexible Camera Configurations",
-      "authors": "R. Wang et al.",
-      "venue": "arXiv Preprint, 2026"
-    },
-    {
-      "title": "FF3R: Feedforward Feature 3D Reconstruction from Unconstrained Views",
-      "authors": "C. Zhou, R. Wang et al.",
-      "venue": "CVPR, 2026"
-    },
-    {
-      "title": "Sat3R: Satellite DSM Reconstruction via RPC-Aware Depth Fine-tuning",
-      "authors": "Q. Yang, C. Zhou, X. Liu, R. Wang et al.",
-      "venue": "CVPRW, 2026"
-    },
-    {
-      "title": "Lightweight Detection of Abnormal Battery Drain Induced by Network Operations of Mobile Apps",
-      "authors": "R. Wang et al.",
-      "venue": "IEEE INFOCOM, 2026. Acceptance Rate: 329/1740 (18.91%)"
-    },
-    {
-      "title": "MAPP: Predictive UI View Pre-caching for Improving the Responsiveness of Mobile Apps",
-      "authors": "R. Wang et al.",
-      "venue": "IEEE/ACM IWQoS, 2025. Acceptance Rate: 81/326 (24.8%)"
-    },
-    {
-      "title": "LLM Agents for Simulating Human Stated-Choice Behavior",
-      "authors": "Z. Wang, M. Kim, R. Wang et al.",
-      "venue": "ICMLA, 2026"
-    }
-  ]
+  "teaching": []
 }
