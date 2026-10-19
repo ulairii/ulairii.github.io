@@ -56,9 +56,16 @@
             "slides_url": "",
             "code_url": "",
             "bibtex_key": "yang2026sat3r",
-            "tags": ["3d computer vision", "satellite imagery", "reconstruction"],
+            "tags": [
+                "3d computer vision",
+                "satellite imagery",
+                "reconstruction"
+            ],
             "abstract": "",
-            "keywords": ["satellite DSM reconstruction", "RPC-aware depth fine-tuning"],
+            "keywords": [
+                "satellite DSM reconstruction",
+                "RPC-aware depth fine-tuning"
+            ],
             "featured": true,
             "award": "",
             "note": "Published",
@@ -67,7 +74,7 @@
         },
         {
             "id": "flexmap-2026",
-            "title": "FlexMap: Generalized HD Map Construction from Flexible Camera Configurations",
+            "title": "FlexMap: Robust HD Map Construction under Flexible Camera Configurations",
             "authors": "Run Wang, Chaoyi Zhou, Amir Salarpour, Xi Liu, Zhi-Qi Cheng, Feng Luo, Mert D. Pesé, Siyu Huang",
             "venue": "arXiv preprint arXiv:2601.22376",
             "venue_short": "arXiv",
@@ -102,7 +109,7 @@
             "award": "",
             "note": "arXiv preprint",
             "acceptance_rate": "",
-            "citation": "R. Wang, C. Zhou, A. Salarpour, X. Liu, Z. Cheng, F. Luo, M. D. Pesé, and S. Huang, \"FlexMap: Generalized HD Map Construction from Flexible Camera Configurations,\" arXiv preprint arXiv:2601.22376, 2026."
+            "citation": "R. Wang, C. Zhou, A. Salarpour, X. Liu, Z. Cheng, F. Luo, M. D. Pesé, and S. Huang, \"FlexMap: Robust HD Map Construction under Flexible Camera Configurations,\" arXiv preprint arXiv:2601.22376, 2026."
         },
         {
             "id": "infocom-2026",
@@ -187,17 +194,8 @@
             "citation": "R. Wang, Z. Herman, M. Brocanelli and X. Wang, \"Mapp: Predictive UI View Pre-Caching for Improving the Responsiveness of Mobile Apps,\" 2025 IEEE/ACM 33rd International Symposium on Quality of Service (IWQoS), Gold Coast, Australia, 2025, pp. 1-10, doi: 10.1109/IWQoS65803.2025.11265768."
         },
         {
-            "id": "llm-stated-choice-2026",
-            "title": "LLM Agents for Simulating Human Stated-Choice Behavior",
-            "authors": "Z. Wang, M. Kim, Run Wang, et al.",
-            "venue": "International Conference on Machine Learning and Applications (ICMLA)",
-            "venue_short": "ICMLA",
-            "proceedings": "Proceedings of ICMLA 2026",
-            "date": "2026-01-01",
-            "year": "2026",
+            "proceedings": "Proceedings of NeurIPS 2026",
             "month": "",
-            "type": "conference",
-            "status": "accepted",
             "url": "",
             "doi": "",
             "address": "",
@@ -205,15 +203,97 @@
             "pdf_url": "",
             "slides_url": "",
             "code_url": "",
-            "bibtex_key": "wang2026llmagents",
-            "tags": ["large language models", "agent simulation"],
             "abstract": "",
-            "keywords": ["LLM agents", "stated-choice behavior"],
             "featured": false,
             "award": "",
-            "note": "Accepted",
             "acceptance_rate": "",
-            "citation": ""
+            "citation": "",
+            "id": "lang-svg-2026",
+            "title": "Lang-SVG: Hierarchical Image Vectorization with Language Priors",
+            "authors": "Xi Liu, Chaoyi Zhou, Run Wang, et al.",
+            "venue": "Conference on Neural Information Processing Systems (NeurIPS)",
+            "venue_short": "NeurIPS",
+            "date": "2026-01-01",
+            "year": "2026",
+            "type": "conference",
+            "status": "accepted",
+            "bibtex_key": "liu2026langsvg",
+            "tags": [
+                "computer vision"
+            ],
+            "keywords": [
+                "image vectorization",
+                "language priors"
+            ],
+            "note": "Accepted"
+        },
+        {
+            "proceedings": "Proceedings of BMVC 2026",
+            "month": "",
+            "url": "",
+            "doi": "",
+            "address": "",
+            "pages": "",
+            "pdf_url": "",
+            "slides_url": "",
+            "code_url": "",
+            "abstract": "",
+            "featured": false,
+            "award": "",
+            "acceptance_rate": "404/1448 (27.9%)",
+            "citation": "",
+            "id": "gate-2026",
+            "title": "GATE: Reliability-Gated Gaussian Evidence Fusion for Training-Free Test-Time Adaptation of Vision-Language Models",
+            "authors": "P. MohajerAnsari, A. Salarpour, Run Wang, et al.",
+            "venue": "British Machine Vision Conference (BMVC)",
+            "venue_short": "BMVC",
+            "date": "2026-01-01",
+            "year": "2026",
+            "type": "conference",
+            "status": "accepted",
+            "bibtex_key": "mohajeransari2026gate",
+            "tags": [
+                "computer vision"
+            ],
+            "keywords": [
+                "test-time adaptation",
+                "vision-language models"
+            ],
+            "note": "Accepted"
+        },
+        {
+            "proceedings": "",
+            "month": "",
+            "url": "",
+            "doi": "",
+            "address": "",
+            "pages": "",
+            "pdf_url": "",
+            "slides_url": "",
+            "code_url": "",
+            "abstract": "",
+            "featured": false,
+            "award": "",
+            "acceptance_rate": "",
+            "citation": "",
+            "id": "specdec-2026",
+            "title": "Adversarial Prompts for Acceptance Collapse in Speculative Decoding",
+            "authors": "Run Wang, et al.",
+            "venue": "arXiv preprint",
+            "venue_short": "arXiv",
+            "date": "2026-01-01",
+            "year": "2026",
+            "type": "preprint",
+            "status": "preprint",
+            "bibtex_key": "wang2026specdec",
+            "tags": [
+                "large language models"
+            ],
+            "keywords": [
+                "speculative decoding",
+                "adversarial prompts"
+            ],
+            "note": "arXiv preprint"
         }
     ]
 }

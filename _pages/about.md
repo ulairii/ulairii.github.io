@@ -19,7 +19,7 @@ redirect_from:
     </div>
     <div class="academic-edu__degree">Ph.D. Student in Computer Science</div>
     <div class="academic-edu__date">Aug. 2025 - Present</div>
-    <div class="academic-edu__detail">Concentration: 3D Computer Vision, AI Security and Mobile Computing</div>
+    <div class="academic-edu__detail">Concentration: Robust Autonomous Driving, 3D Computer Vision, AI Security</div>
   </div>
 
   <div class="academic-edu__item">
@@ -44,7 +44,7 @@ redirect_from:
 ## Research Topics
 * 3D Computer Vision
 * AI Security
-* Autonomous Driving
+* Robust Autonomous Driving
 * Mobile Computing
 
 ## Selected Publications

@@ -4,7 +4,7 @@
     "email": "runw@clemson.edu",
     "phone": "+1 (518) 961-8733",
     "website": "https://ulairii.github.io",
-    "summary": "Computer Science Ph.D. student specializing in 3D computer vision, AI security, and mobile/edge computing, with experience spanning research, ML systems, and production software engineering. Published/accepted work in CVPR, IEEE INFOCOM, and IEEE/ACM IWQoS.",
+    "summary": "Computer Science Ph.D. student specializing in robust autonomous driving, 3D perception, and mobile/edge computing, with experience in research and systems/software engineering. Author of published or accepted papers in CVPR, BMVC, INFOCOM, and IWQoS.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -117,7 +117,7 @@
       "endDate": "Aug. 2025 - Present",
       "gpa": null,
       "courses": [],
-      "summary": "Concentration: 3D Computer Vision, AI Security and Mobile Computing"
+      "summary": "Concentration: Robust Autonomous Driving, 3D Computer Vision, AI Security"
     },
     {
       "institution": "Carnegie Mellon University",
@@ -150,20 +150,19 @@
       ]
     },
     {
-      "name": "Cloud / DevOps",
+      "name": "Tools",
       "keywords": [
         "Docker",
         "Kubernetes",
-        "Terraform"
+        "CARLA"
       ]
     },
     {
       "name": "Research Areas",
       "keywords": [
-        "3D Computer Vision",
-        "AI Security",
-        "Autonomous Driving",
-        "Mobile Computing"
+        "Robust Autonomous Driving",
+        "3D Perception",
+        "Mobile/Edge Computing"
       ]
     }
   ],
@@ -191,7 +190,7 @@
     {
       "name": "User Recommendation Microservice",
       "date": "2022-08 - 2022-12",
-      "description": "Built Spark ETL pipelines on GCP Dataproc to preprocess approximately 1 TB of Twitter data for recommendation-system experiments. Deployed cloud-native recommendation microservices using Kubernetes, FastAPI, and Vert.x, achieving 10,000 RPS within a $0.70/hour infrastructure budget.",
+      "description": "Built Spark ETL pipelines on GCP Dataproc to preprocess a Twitter dataset for recommendation-system experiments. Deployed cloud-native recommendation microservices using Kubernetes, FastAPI, and Vert.x, achieving 10,000 RPS within a $0.70/hour infrastructure budget.",
       "url": ""
     }
   ],

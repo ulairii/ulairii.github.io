@@ -2,26 +2,26 @@
                        runw@clemson.edu | +1 (518) 961–8733 | Clemson, SC | Github | LinkedIn
 
 Summary
-Computer Science Ph.D. student specializing in 3D computer vision, AI security, and mobile/edge computing, with
-experience spanning research, ML systems, and production software engineering. Published/accepted work in CVPR, IEEE
-INFOCOM, and IEEE/ACM IWQoS.
+Computer Science Ph.D. student specializing in robust autonomous driving, 3D perception, and mobile/edge computing,
+with experience in research and systems/software engineering. Author of published or accepted papers in CVPR, BMVC,
+INFOCOM, and IWQoS.
 
 Skills
   Programming: C, C++, C#, Python (PyTorch), Java
-  Cloud / DevOps: Docker, Kubernetes, Terraform
-  Research Areas: 3D Computer Vision, AI Security, Autonomous Driving, Mobile Computing
+  Tools: Docker, Kubernetes, CARLA
+  Research Areas: Robust Autonomous Driving, 3D perception, and Mobile/Edge Computing
 
 Education
-  Clemson University                                                                                    Clemson, SC
+  Clemson University                                                                                   Clemson, SC
   Ph.D. Student in Computer Science                                                              Aug. 2025 – Present
-    – Concentration: 3D Computer Vision, AI Security and Mobile Computing
+    – Concentration: Robust Autonomous Driving, 3D Computer Vision, AI Security
   Carnegie Mellon University                                                                         Pittsburgh, PA
   M.S. in Electrical and Computer Engineering (Applied Advanced Program)                        Sep. 2021 – May 2023
   Rensselaer Polytechnic Institute                                                                         Troy, NY
   B.S. in Computer & Systems Engineering                                                        Sep. 2017 – May 2021
 
-Publications and Preprints
-  R. Wang et al., “FlexMap: Generalized HD Map Construction from Flexible Camera Configurations”
+Selected Publications and Preprints
+  R. Wang et al., “FlexMap: Robust HD Map Construction under Flexible Camera Configurations”
   arXiv Preprint, 2026.
   C. Zhou, R. Wang et al., “FF3R: Feedforward Feature 3D Reconstruction from Unconstrained Views”
   CVPR, 2026.
@@ -31,17 +31,20 @@ Publications and Preprints
   IEEE INFOCOM, 2026. Acceptance Rate: 329/1740 (18.91%)
   R. Wang et al., “MAPP: Predictive UI View Pre-caching for Improving the Responsiveness of Mobile Apps”
   IEEE/ACM IWQoS, 2025. Acceptance Rate: 81/326 (24.8%)
-  Z. Wang, M. Kim, R. Wang et al., “LLM Agents for Simulating Human Stated-Choice Behavior”
-  ICMLA, 2026.
+  X. Liu, C. Zhou, R. Wang et al., “Lang-SVG: Hierarchical Image Vectorization with Language Priors”
+  NeurIPS, 2026.
+  P. MohajerAnsari, A. Salarpour, R. Wang et al., “GATE: Reliability-Gated Gaussian Evidence Fusion for Training-Free
+  Test-Time Adaptation of Vision-Language Models”
+  British Machine Vision Conference (BMVC), 2026. Acceptance Rate: 404/1448 (27.9%)
+  R. Wang et al., “Adversarial Prompts for Acceptance Collapse in Speculative Decoding”
+  arXiv Preprint, 2026.
 
   Manuscripts currently under review
 
-  R. Wang et al., “Adversarial Prompts for Acceptance Collapse in Speculative Decoding”
-  X. Liu, C. Zhou, R. Wang et al., “Lang-SVG: Hierarchical Image Vectorization with Language Priors”
-  Y. Liu, R. Wang et al., “Who Touched the Screen? Driver-Passenger Identification in In-Vehicle Infotainment (IVI)
-  Systems”
-  P. MohajerAnsari, A. Salarpour, R. Wang et al., “GATE: Reliability-Gated Gaussian Evidence Fusion for Training-Free
-  Test-Time Adaptation of Vision-Language Models”
+  R. Wang et al., “BEVIVE: Defend against Targeted Hiding Attacks on Multi-Sensor Fusion in Autonomous Driving”
+  C. Zhou, R. Wang et al., “SCOPE-4D: Endoscopic 4D Geometry Foundation Models”
+  M. Khan, R. Wang et al., “PT-Flow: One-Step Schrödinger-Bridge Generation by Proximal Tilting”
+  Y. Liu, R. Wang et al., “Who Touched the Screen? Driver-Passenger Identification in In-Vehicle Infotainment Systems”
 Research Experience
  Graduate Research Assistant                                                                      Aug. 2025 – Present
  Clemson University                                                                                     Clemson, SC
@@ -90,7 +93,7 @@ Project Experience
    – Shipped public demo and GitHub repository, attracting 23 stars.
  User Recommendation Microservice                                                              Aug. 2022 – Dec. 2022
  GCP, Kubernetes, Spark, FastAPI, Vert.x
-   – Built Spark ETL pipelines on GCP Dataproc to preprocess ≈ 1T B Twitter dataset for recommendation-system
+   – Built Spark ETL pipelines on GCP Dataproc to preprocess a Twitter dataset for recommendation-system
      experiments.
    – Deployed cloud-native recommendation microservices using Kubernetes, FastAPI, and Vert.x, achieving 10,000 RPS
      within a $0.70/hour infrastructure budget.
