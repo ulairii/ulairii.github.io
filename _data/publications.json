@@ -34,7 +34,8 @@
             "award": "",
             "note": "Published",
             "acceptance_rate": "",
-            "citation": ""
+            "citation": "",
+            "selected_order": 2
         },
         {
             "id": "sat3r-2026",
@@ -70,7 +71,8 @@
             "award": "",
             "note": "Published",
             "acceptance_rate": "",
-            "citation": ""
+            "citation": "",
+            "selected_order": 3
         },
         {
             "id": "flexmap-2026",
@@ -109,7 +111,8 @@
             "award": "",
             "note": "arXiv preprint",
             "acceptance_rate": "",
-            "citation": "R. Wang, C. Zhou, A. Salarpour, X. Liu, Z. Cheng, F. Luo, M. D. Pesé, and S. Huang, \"FlexMap: Robust HD Map Construction under Flexible Camera Configurations,\" arXiv preprint arXiv:2601.22376, 2026."
+            "citation": "R. Wang, C. Zhou, A. Salarpour, X. Liu, Z. Cheng, F. Luo, M. D. Pesé, and S. Huang, \"FlexMap: Robust HD Map Construction under Flexible Camera Configurations,\" arXiv preprint arXiv:2601.22376, 2026.",
+            "selected_order": 1
         },
         {
             "id": "infocom-2026",
@@ -145,7 +148,8 @@
             "award": "",
             "note": "Accepted",
             "acceptance_rate": "329/1740 (18.91%)",
-            "citation": ""
+            "citation": "",
+            "selected_order": 4
         },
         {
             "id": "mapp-2025",
@@ -191,7 +195,8 @@
             "award": "",
             "note": "Accepted",
             "acceptance_rate": "81/326 (24.8%)",
-            "citation": "R. Wang, Z. Herman, M. Brocanelli and X. Wang, \"Mapp: Predictive UI View Pre-Caching for Improving the Responsiveness of Mobile Apps,\" 2025 IEEE/ACM 33rd International Symposium on Quality of Service (IWQoS), Gold Coast, Australia, 2025, pp. 1-10, doi: 10.1109/IWQoS65803.2025.11265768."
+            "citation": "R. Wang, Z. Herman, M. Brocanelli and X. Wang, \"Mapp: Predictive UI View Pre-Caching for Improving the Responsiveness of Mobile Apps,\" 2025 IEEE/ACM 33rd International Symposium on Quality of Service (IWQoS), Gold Coast, Australia, 2025, pp. 1-10, doi: 10.1109/IWQoS65803.2025.11265768.",
+            "selected_order": 5
         },
         {
             "proceedings": "Proceedings of NeurIPS 2026",
@@ -204,7 +209,7 @@
             "slides_url": "",
             "code_url": "",
             "abstract": "",
-            "featured": false,
+            "featured": true,
             "award": "",
             "acceptance_rate": "",
             "citation": "",
@@ -225,7 +230,8 @@
                 "image vectorization",
                 "language priors"
             ],
-            "note": "Accepted"
+            "note": "Accepted",
+            "selected_order": 6
         },
         {
             "proceedings": "Proceedings of BMVC 2026",
@@ -238,7 +244,7 @@
             "slides_url": "",
             "code_url": "",
             "abstract": "",
-            "featured": false,
+            "featured": true,
             "award": "",
             "acceptance_rate": "404/1448 (27.9%)",
             "citation": "",
@@ -259,7 +265,8 @@
                 "test-time adaptation",
                 "vision-language models"
             ],
-            "note": "Accepted"
+            "note": "Accepted",
+            "selected_order": 7
         },
         {
             "proceedings": "",
@@ -272,7 +279,7 @@
             "slides_url": "",
             "code_url": "",
             "abstract": "",
-            "featured": false,
+            "featured": true,
             "award": "",
             "acceptance_rate": "",
             "citation": "",
@@ -293,7 +300,8 @@
                 "speculative decoding",
                 "adversarial prompts"
             ],
-            "note": "arXiv preprint"
+            "note": "arXiv preprint",
+            "selected_order": 8
         }
     ]
 }
