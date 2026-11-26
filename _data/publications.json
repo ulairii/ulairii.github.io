@@ -24,7 +24,7 @@
                 "3d computer vision",
                 "reconstruction"
             ],
-            "abstract": "",
+            "abstract": "Recent advances in vision foundation models have revolutionized geometry reconstruction and semantic understanding. Yet, most of the existing approaches treat these capabilities in isolation, leading to redundant pipelines and compounded errors. This paper introduces FF3R, a fully annotation-free feed-forward framework that unifies geometric and semantic reasoning from unconstrained multi-view image sequences. Unlike previous methods, FF3R does not require camera poses, depth maps, or semantic labels, relying solely on rendering supervision for RGB and feature maps, establishing a scalable paradigm for unified 3D reasoning. In addition, we address two critical challenges in feedforward feature reconstruction pipelines, namely global semantic inconsistency and local structural inconsistency, through two key innovations: (i) a Token-wise Fusion Module that enriches geometry tokens with semantic context via cross-attention, and (ii) a Semantic-Geometry Mutual Boosting mechanism combining geometry-guided feature warping for global consistency with semantic-aware voxelization for local coherence. Extensive experiments on ScanNet and DL3DV-10K demonstrate FF3R's superior performance in novel-view synthesis, open-vocabulary semantic segmentation, and depth estimation, with strong generalization to in-the-wild scenarios, paving the way for embodied intelligence systems that demand both spatial and semantic understanding.",
             "keywords": [
                 "3D reconstruction",
                 "unconstrained views",
@@ -62,7 +62,7 @@
                 "satellite imagery",
                 "reconstruction"
             ],
-            "abstract": "",
+            "abstract": "Accurate Digital Surface Model (DSM) reconstruction from satellite imagery is critical for applications such as disaster response, urban planning, and large-scale geographic mapping. Existing approaches face a fundamental trade-off: optimization-based methods achieve strong accuracy but require hours of per-scene computation, while generalizable geometry foundation models offer near-instant inference but fail to generalize to satellite imagery due to the domain gap introduced by the Rational Polynomial Camera (RPC) model and mismatched depth scale distributions. We present Sat3R, a feed-forward framework that bridges this gap via RPC-aware metric depth fine-tuning of Depth Anything V2 using the Scale-Invariant Logarithmic (SiLog) loss. By constructing physically consistent pseudo depth supervision from RPC geometry, Sat3R adapts a monocular depth foundation model to the satellite domain without per-scene optimization. Experiments on the DFC2019 benchmark demonstrate that Sat3R reduces MAE by 38% over zero-shot feed-forward baselines and achieves competitive accuracy against optimization-based methods, while delivering over 300x speedup. Sat3R demonstrates that feed-forward models, when properly adapted to the satellite domain, can match optimization-based accuracy at a fraction of the computational cost, paving the way for practical large-scale satellite DSM reconstruction.",
             "keywords": [
                 "satellite DSM reconstruction",
                 "RPC-aware depth fine-tuning"
