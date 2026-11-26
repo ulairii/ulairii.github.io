@@ -7,11 +7,19 @@
 <div itemscope itemtype="http://schema.org/Person">
 
   <div class="author__avatar">
+    <div class="author__avatar-wrap">
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
     	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
     {% endif %}
+    <svg class="author__doodle" viewBox="0 0 200 120" aria-hidden="true" focusable="false">
+      <text x="138" y="26" class="author__doodle-text">this is</text>
+      <text x="138" y="43" class="author__doodle-text">me!</text>
+      <path class="author__doodle-line" d="M172,52 C172,72 152,75 151,66 C150,57 164,59 161,69 C158,79 128,62 94,40"/>
+      <path class="author__doodle-head" d="M96.4,46.6 L92,38.7 L101.0,39.5"/>
+    </svg>
+    </div>
   </div>
 
   <div class="author__content">
